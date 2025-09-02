@@ -1,0 +1,123 @@
+:root {
+  --content-font: 'Akshar', sans-serif;
+  --theme-primary-color: var(--yellow-8);
+  --theme-secondary-color: var(--blue-12);
+  --button-padding: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ font-family: var(--content-font);
+ background-color: var(--theme-secondary-color);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--button-padding);
+  background: #0D375E;
+  background: linear-gradient(45deg, rgba(13, 55, 94, 1) 60%, rgba(240, 140, 0, 1) 85%);
+  nav {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+button.button {
+  border: none;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--theme-secondary-color);
+  color: var(--theme-primary-color);
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  padding: var(--button-padding);
+
+  @media screen and (-ms-high-contrast: active) {
+    border: 2px solid currentcolor;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+}
+
+#teams {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  height: auto;
+  margin: 200px auto;
+  color: var(--theme-primary-color);
+  > h2 {
+    margin-bottom: 30px;
+  }
+  > .teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  }
+}
+
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  height: auto;
+  margin: 200px auto;
+  color: var(--theme-primary-color);
+  > h2 {
+    margin-bottom: 30px;
+  }
+  > .sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  }
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr min(120ch, calc(100% - 16px)) 1fr;
+  grid-column-gap: 8px;
+  place-items: center;
+}
+
+.parent > * {
+  grid-column: 2;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
