@@ -2,7 +2,7 @@
   {
     "id": "#2025-1",
     "name": "Ramdas D",
-    "picture": "../assets/players/1.png",
+    "picture": "../assets/players/1.jpeg",
     "parents": "s/o Subbha patali",
     "place": "Mangalore",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -11,7 +11,7 @@
   {
     "id": "#2025-2",
     "name": "Sooraj V R",
-    "picture": "../assets/players/2.png",
+    "picture": "../assets/players/2.jpeg",
     "parents": "s/o Ravichandra",
     "place": "Mangaluru",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -434,7 +434,7 @@
   {
     "id": "#2025-49",
     "name": "Datta kiran A",
-    "picture": "../assets/players/49.png",
+    "picture": "../assets/players/49.jpeg",
     "parents": "s/o Chandra K",
     "place": "Kotekar",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -443,7 +443,7 @@
   {
     "id": "#2025-50",
     "name": "Manoj B",
-    "picture": "../assets/players/50.png",
+    "picture": "../assets/players/50.jpeg",
     "parents": "s/o Narayana B",
     "place": "Manjeshwaram",
     "category": "All-rounder, Right Hand, Right Hand Spin",
@@ -1064,7 +1064,7 @@
   {
     "id": "#2025-119",
     "name": "Harisha P",
-    "picture": "../assets/players/119.png",
+    "picture": "../assets/players/119.jpg",
     "parents": "s/o Narayana Patali",
     "place": "Sullia",
     "category": "Bowler, Right Hand, Right Hand Fast",
