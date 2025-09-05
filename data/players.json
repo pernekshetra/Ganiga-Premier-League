@@ -1,0 +1,29 @@
+[
+  {
+    "id": "#2025-1",
+    "name": "Nithin Raj",
+    "picture": "../assets/players/1NithinRaj.png",
+    "parents": "s/o Mohan P",
+    "place": "Mithanadka Karopady",
+    "category": "Batsman, Right hand bat & Right hand fast",
+    "team": null
+  },
+  {
+    "id": "#2025-2",
+    "name": "Madava D",
+    "picture": "../assets/players/2MadhavaD.png",
+    "parents": "s/o Mana Patali",
+    "place": "Vittal",
+    "category": "Batsman, Right hand bat & Right hand spin",
+    "team": null
+  },
+  {
+    "id": "#2025-3",
+    "name": "Vikyath G",
+    "picture": "../assets/players/3Vikyath.png",
+    "parents": "s/o Ganesh Kumar B",
+    "place": "Vinobanagara Adkar",
+    "category": "All-rounder, Right hand bat & Right hand fast",
+    "team": null
+  }
+]

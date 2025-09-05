@@ -10,7 +10,7 @@
   <link href="https://fonts.bunny.net/css?family=abeezee:400|akshar:400" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/open-props">
   <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="../css/players.css">
   <meta property="og:type" content="website">
   <meta property="og:url" content="gpl.rakshithnettar.com">
   <meta property="og:title" content="Ganiga Premier League">
@@ -110,7 +110,7 @@
 </head>
 <body>
   <header>
-    <h3><span id="head"><img width="48" height="48" src="assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span></h3>
+    <h3><span id="head"><img width="48" height="48" src="../assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span></h3>
     <nav>
       <a href="/" class="button">Home</a>
       <a href="/players" class="button">Players</a>
@@ -118,37 +118,11 @@
     </nav>
   </header>
   <section id="hero">
-    <img height="560" src="assets/hero.jpeg" alt="hero banner" class="banner" />
+    <img height="560" src="../assets/hero.jpeg" alt="hero banner" class="banner" />
   </section>
   <main class="parent">
-    <section id="teams">
-      <h2>TEAMS</h2>
-      <div class="teams">
-        <div>
-          <img src="assets/team_logos/1PataliChallengersMangaluru.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/2VaniyanWarriorsPuttur.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/3ZeusGanigaStrickers.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/4GanigaTitansVitla.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/5PataliPanthersSullia.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/6VaniyanEleven.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/7VaniyanBlastarsSeethangoli.png" alt="team-logo" />
-        </div>
-        <div>
-          <img src="assets/team_logos/8PataliHurricanes.png" alt="team-logo" />
-        </div>
-      </div>
+    <h2>PLAYERS</h2>
+    <section id="players">
     </section>
   </main>
   <footer>
@@ -156,6 +130,10 @@
       <em>Built with ♡ by <a href="https://rakshithnettar.com">ARIVU.GG</a></em>
     </p>
   </footer>
-  <script src="scripts.js"></script>
+  <script src="../scripts.js"></script>
+  <script type="module">
+    import data from '../data/players.json' with { type: 'json' };
+    renderPlayers(data);
+  </script>
 </body>
 </html>

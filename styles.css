@@ -12,6 +12,7 @@
 body {
  font-family: var(--content-font);
  background-color: var(--theme-secondary-color);
+ margin: 0;
 }
 
 header {
@@ -60,57 +61,6 @@ button.button {
   object-fit: cover;
 }
 
-#teams {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  gap: 20px;
-  height: auto;
-  margin: 200px auto;
-  color: var(--theme-primary-color);
-  > h2 {
-    margin-bottom: 30px;
-  }
-  > .teams {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    img {
-      width: 100%;
-      max-width: 200px;
-      height: auto;
-    }
-  }
-}
-
-#sponsors {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  gap: 20px;
-  height: auto;
-  margin: 200px auto;
-  color: var(--theme-primary-color);
-  > h2 {
-    margin-bottom: 30px;
-  }
-  > .sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    img {
-      width: 100%;
-      max-width: 200px;
-      height: auto;
-    }
-  }
-}
 
 .parent {
   display: grid;
