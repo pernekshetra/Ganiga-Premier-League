@@ -1,4 +1,17 @@
-#teams {
+#about {
+  margin-top: 100px;
+  h2 {
+    text-align: center;
+    color: var(--theme-primary-color);
+    max-inline-size: revert;
+    margin-bottom: 50px;
+  }
+  h4 {
+    max-inline-size: revert;
+  }
+}
+
+#teams, #organizers {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -11,7 +24,7 @@
   > h2 {
     margin-bottom: 30px;
   }
-  > .teams {
+  > .teams, .organizers {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,5 +57,26 @@
         }
       }
     }
+  }
+}
+
+#president-address {
+  margin-top: 100px;
+  h2 {
+    text-align: center;
+    color: var(--theme-primary-color);
+    max-inline-size: revert;
+    margin-bottom: 50px;
+  }
+  h4 {
+    max-inline-size: revert;
+    .name {
+      color: var(--theme-primary-color);
+    }
+  }
+  > img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
   }
 }
