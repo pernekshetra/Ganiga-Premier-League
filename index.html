@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#3C4C5C">
   <title>GANIGA PREMIER LEAGUE</title>
-  <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☄️</text></svg>" type="image/x-icon">
+  <link rel="shortcut icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☄️</text></svg>"
+    type="image/x-icon">
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=abeezee:400|akshar:400" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/open-props">
-  <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
   <link rel="stylesheet" href="css/home.css">
   <meta property="og:type" content="website">
   <meta property="og:url" content="gpl.rakshithnettar.com">
@@ -26,92 +29,95 @@
   <meta name="twitter:description" content="website for all things GPL">
   <meta name="twitter:image" content="https://ganigapremierleague.com/assets/meta.jpg">
   <style>
-  :root {
-    --content-font: 'Akshar', sans-serif;
-    --theme-primary-color: #DBA81F;
-    --theme-secondary-color: #0B1D2F;
-    --button-padding: 12px;
-  }
+    :root {
+      --content-font: 'Akshar', sans-serif;
+      --theme-primary-color: #DBA81F;
+      --theme-secondary-color: #0B1D2F;
+      --button-padding: 12px;
+    }
 
-  * {
-    box-sizing: border-box;
-  }
+    * {
+      box-sizing: border-box;
+    }
 
-  body {
-   font-family: var(--content-font);
-   background-color: var(--theme-secondary-color);
-   margin: 0;
-  }
+    body {
+      font-family: var(--content-font);
+      background-color: var(--theme-secondary-color);
+      margin: 0;
+    }
 
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--button-padding);
-    background: #0D375E;
-    background: linear-gradient(45deg, var(--theme-secondary-color) 60%, var(--theme-primary-color) 85%);
-    nav {
+    header {
       display: flex;
-      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--button-padding);
+      background: #0D375E;
+      background: linear-gradient(45deg, var(--theme-secondary-color) 60%, var(--theme-primary-color) 85%);
+
+      nav {
+        display: flex;
+        gap: 8px;
+      }
     }
-  }
 
-  h3 > #head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-  }
-
-  a.button {
-    border: none;
-    font-family: inherit;
-    padding: 0;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--theme-secondary-color);
-    color: var(--theme-primary-color);
-    border-radius: 8px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
-    padding: var(--button-padding);
-  
-    @media screen and (-ms-high-contrast: active) {
-      border: 2px solid currentcolor;
+    h3>#head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
     }
-  }
 
-  .banner {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: bottom;
-  }
+    a.button {
+      border: none;
+      font-family: inherit;
+      padding: 0;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--theme-secondary-color);
+      color: var(--theme-primary-color);
+      border-radius: 8px;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+      padding: var(--button-padding);
+
+      @media screen and (-ms-high-contrast: active) {
+        border: 2px solid currentcolor;
+      }
+    }
+
+    .banner {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      object-position: bottom;
+    }
 
 
-  .parent {
-    display: grid;
-    grid-template-columns: 1fr min(120ch, calc(100% - 16px)) 1fr;
-    grid-column-gap: 8px;
-    place-items: center;
-  }
-  
-  .parent > * {
-    grid-column: 2;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-  }
+    .parent {
+      display: grid;
+      grid-template-columns: 1fr min(120ch, calc(100% - 16px)) 1fr;
+      grid-column-gap: 8px;
+      place-items: center;
+    }
+
+    .parent>* {
+      grid-column: 2;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
   </style>
 </head>
+
 <body>
   <header>
-    <h3><span id="head"><img width="48" height="48" src="assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span></h3>
+    <h3><span id="head"><img width="48" height="48" src="assets/tournament_logo.jpg" alt="Tournament logo">Ganiga
+        Premier League</span></h3>
     <nav>
       <a href="/" class="button">HOME</a>
       <a href="/players" class="button">PLAYERS</a>
@@ -124,9 +130,14 @@
   <main class="parent">
     <section id="about">
       <h2>ABOUT</h2>
-      <h4>Ganiga Premier League (GPL-2025) is being organized by Dakshina Kannada Zilla Ganiga Samaja Seva Sangha (R.), Mangaluru, to bring together the youth of the Ganiga community. The theme of GPL-2025 is “Where Unity Plays First,”showing the true spirit of the event.<br /><br />
-      The tournament will have 8 teams owned by community members, with 120 registered players. It will be held on Sunday, 26th October 2025, at St. Philomena College Ground, Puttur. <br /><br />
-      There will be a total of 15 matches – 12 league matches, 2 qualifiers, and 1 grand final. Along with cricket, GPL-2025 will also host a Business Expo and a Science Exhibition, providing a platform for entrepreneurship, innovation, and knowledge sharing.</h4>
+      <h4>Ganiga Premier League (GPL-2025) is being organized by Dakshina Kannada Zilla Ganiga Samaja Seva Sangha (R.),
+        Mangaluru, to bring together the youth of the Ganiga community. The theme of GPL-2025 is “Where Unity Plays
+        First,”showing the true spirit of the event.<br /><br />
+        The tournament will have 8 teams owned by community members, with 120 registered players. It will be held on
+        Sunday, 26th October 2025, at St. Philomena College Ground, Puttur. <br /><br />
+        There will be a total of 15 matches – 12 league matches, 2 qualifiers, and 1 grand final. Along with cricket,
+        GPL-2025 will also host a Business Expo and a Science Exhibition, providing a platform for entrepreneurship,
+        innovation, and knowledge sharing.</h4>
     </section>
     <section id="teams">
       <h2>TEAMS</h2>
@@ -193,6 +204,35 @@
       <h2>ORGANIZERS</h2>
       <div class="organizers">
         <div class="card">
+          <img src="assets/organizers/4.jpg" alt="organizer" />
+          <div>
+            <h4>Ravichandra</h4>
+            <h5>Mangalore</h5>
+            <p>95356 27146</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/organizers/7.jpg" alt="organizer" />
+          <div>
+            <h4>Prasad B Kallarpe</h4>
+            <p>78924 53238</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/organizers/5.jpg" alt="organizer" />
+          <div>
+            <h4>Harish Raj Kuriyathadka</h4>
+            <p>82899 05608</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/organizers/6.jpg" alt="organizer" />
+          <div>
+            <h4>Dinakara Alike</h4>
+            <p>95356 27146</p>
+          </div>
+        </div>
+        <div class="card">
           <img src="assets/organizers/1.jpg" alt="organizer" />
           <div>
             <h4>Vijeth P S</h4>
@@ -215,57 +255,35 @@
             <p>95356 27146</p>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/organizers/4.jpg" alt="organizer" />
-          <div>
-            <h4>Ravichandra</h4>
-            <h5>Mangalore</h5>
-            <p>95356 27146</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/organizers/5.jpg" alt="organizer" />
-          <div>
-            <h4>Harish Raj Kuriyathadka</h4>
-            <p>82899 05608</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/organizers/6.jpg" alt="organizer" />
-          <div>
-            <h4>Dinakara Alike</h4>
-            <p>95356 27146</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/organizers/7.jpg" alt="organizer" />
-          <div>
-            <h4>Prasad B Kallarpe</h4>
-            <p>78924 53238</p>
-          </div>
-        </div>
-      </div>
+
+
+
     </section>
     <section id="president-address">
       <h2>ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ</h2>
-      <h4> 
-ಪ್ರಿಯ ಸಮುದಾಯ ಭಾಂದವರೇ,<br /><br />
+      <h4>
+        ಪ್ರಿಯ ಸಮುದಾಯ ಭಾಂದವರೇ,<br /><br />
 
-ಕ್ರಿಕೆಟ್ ನಮ್ಮ ದೇಶದ ಕ್ರೀಡೆಯಷ್ಟೇ ಅಲ್ಲ, ಇದು ನಮ್ಮ ಭಾವನೆ, ನಮ್ಮ ಒಗ್ಗಟ್ಟು ಮತ್ತು ನಮ್ಮ ಕನಸುಗಳ ಪ್ರತೀಕ. ಭಾರತದಲ್ಲಿ ಕ್ರಿಕೆಟ್ ಜನರನ್ನು ಒಂದಾಗಿಸಿದಂತೆ, ಗಣಿಗ ಪ್ರೀಮಿಯರ್ ಲೀಗ್ – 2025 (GPL-2025) ನಮ್ಮ ಸಮುದಾಯದವರನ್ನು ಒಂದೇ ವೇದಿಕೆಯಲ್ಲಿ ಸೇರಿಸುತ್ತಿದೆ.
-<br /><br />
-ಈ ಮಟ್ಟದ ಕ್ರಿಕೆಟ್ ಟೂರ್ನಮೆಂಟ್ ನಮ್ಮ ಸಮುದಾಯದಲ್ಲಿ ಇದುವರೆಗೂ ನಡೆದಿಲ್ಲ. 8 ತಂಡಗಳು, 120 ಕ್ಕೂ ಹೆಚ್ಚು ಆಟಗಾರರು, 15 ಪಂದ್ಯಗಳು – ಇದು ಕೇವಲ ಟೂರ್ನಮೆಂಟ್ ಅಲ್ಲ, ನಮ್ಮ ಸಮುದಾಯದ ಸಾಮರ್ಥ್ಯವನ್ನು ತೋರಿಸುವ ಇತಿಹಾಸದ ಹೆಜ್ಜೆ. GPL-2025 ನಮ್ಮ ಯುವಕರಿಗೆ ಸ್ಪರ್ಧಾತ್ಮಕ ಮನೋಭಾವ, ತಂಡಭಾವನೆ ಮತ್ತು ಗೆಲ್ಲುವ ಜಿಜ್ಞಾಸೆಯನ್ನು ಕಲಿಸುವುದು.
-<br /><br />
-ಇದರ ಜೊತೆಗೆ ಬಿಸಿನೆಸ್ ಎಕ್ಸ್‌ಪೋ ಮತ್ತು ಸೈನ್ಸ್ ಎಕ್ಸಿಬಿಷನ್ ಯುವಕರ ಕನಸುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಸಣ್ಣ ಪ್ರಯತ್ನ.<br /><br />
+        ಕ್ರಿಕೆಟ್ ನಮ್ಮ ದೇಶದ ಕ್ರೀಡೆಯಷ್ಟೇ ಅಲ್ಲ, ಇದು ನಮ್ಮ ಭಾವನೆ, ನಮ್ಮ ಒಗ್ಗಟ್ಟು ಮತ್ತು ನಮ್ಮ ಕನಸುಗಳ ಪ್ರತೀಕ. ಭಾರತದಲ್ಲಿ ಕ್ರಿಕೆಟ್
+        ಜನರನ್ನು ಒಂದಾಗಿಸಿದಂತೆ, ಗಣಿಗ ಪ್ರೀಮಿಯರ್ ಲೀಗ್ – 2025 (GPL-2025) ನಮ್ಮ ಸಮುದಾಯದವರನ್ನು ಒಂದೇ ವೇದಿಕೆಯಲ್ಲಿ ಸೇರಿಸುತ್ತಿದೆ.
+        <br /><br />
+        ಈ ಮಟ್ಟದ ಕ್ರಿಕೆಟ್ ಟೂರ್ನಮೆಂಟ್ ನಮ್ಮ ಸಮುದಾಯದಲ್ಲಿ ಇದುವರೆಗೂ ನಡೆದಿಲ್ಲ. 8 ತಂಡಗಳು, 120 ಕ್ಕೂ ಹೆಚ್ಚು ಆಟಗಾರರು, 15 ಪಂದ್ಯಗಳು –
+        ಇದು ಕೇವಲ ಟೂರ್ನಮೆಂಟ್ ಅಲ್ಲ, ನಮ್ಮ ಸಮುದಾಯದ ಸಾಮರ್ಥ್ಯವನ್ನು ತೋರಿಸುವ ಇತಿಹಾಸದ ಹೆಜ್ಜೆ. GPL-2025 ನಮ್ಮ ಯುವಕರಿಗೆ ಸ್ಪರ್ಧಾತ್ಮಕ
+        ಮನೋಭಾವ, ತಂಡಭಾವನೆ ಮತ್ತು ಗೆಲ್ಲುವ ಜಿಜ್ಞಾಸೆಯನ್ನು ಕಲಿಸುವುದು.
+        <br /><br />
+        ಇದರ ಜೊತೆಗೆ ಬಿಸಿನೆಸ್ ಎಕ್ಸ್‌ಪೋ ಮತ್ತು ಸೈನ್ಸ್ ಎಕ್ಸಿಬಿಷನ್ ಯುವಕರ ಕನಸುಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಸಣ್ಣ ಪ್ರಯತ್ನ.<br /><br />
 
-ನಮ್ಮ ಸಮುದಾಯದ ಒಗ್ಗಟ್ಟಿಗೆ ಹೊಸ ಅರ್ಥ ನೀಡುವ ಈ GPL-2025 ಅನ್ನು ಯಶಸ್ವಿಗೊಳಿಸಲು ಪ್ರತಿಯೊಬ್ಬರೂ ಹೃತ್ಪೂರ್ವಕವಾಗಿ ಕೈಜೋಡಿಸಬೇಕೆಂದು ನಾನು ಎಲ್ಲರಿಗೂ ಆಹ್ವಾನಿಸುತ್ತೇನೆ.<br /><br /></h4>
+        ನಮ್ಮ ಸಮುದಾಯದ ಒಗ್ಗಟ್ಟಿಗೆ ಹೊಸ ಅರ್ಥ ನೀಡುವ ಈ GPL-2025 ಅನ್ನು ಯಶಸ್ವಿಗೊಳಿಸಲು ಪ್ರತಿಯೊಬ್ಬರೂ ಹೃತ್ಪೂರ್ವಕವಾಗಿ ಕೈಜೋಡಿಸಬೇಕೆಂದು
+        ನಾನು ಎಲ್ಲರಿಗೂ ಆಹ್ವಾನಿಸುತ್ತೇನೆ.<br /><br />
+      </h4>
 
-<img src="assets/president.jpeg" alt="president" />
-<h4>
-<span class="name">ರಾಮ ಕೆ ಮೂಗ್ರೋಡಿ </span><br />
+      <img src="assets/president.jpeg" alt="president" />
+      <h4>
+        <span class="name">ರಾಮ ಕೆ ಮೂಗ್ರೋಡಿ </span><br />
 
-ದಕ್ಷಿಣ ಕನ್ನಡ ಜಿಲ್ಲಾ ಗಣಿಗ ಸಮಾಜ ಸೇವಾ ಸಂಘ (ರಿ), ಮಂಗಳೂರು</br />
+        ದಕ್ಷಿಣ ಕನ್ನಡ ಜಿಲ್ಲಾ ಗಣಿಗ ಸಮಾಜ ಸೇವಾ ಸಂಘ (ರಿ), ಮಂಗಳೂರು</br />
 
-ಅಧ್ಯಕ್ಷರು
+        ಅಧ್ಯಕ್ಷರು
       </h4>
     </section>
   </main>
@@ -276,4 +294,5 @@
   </footer>
   <script src="scripts.js"></script>
 </body>
+
 </html>
