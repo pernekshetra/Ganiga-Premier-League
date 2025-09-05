@@ -7,6 +7,7 @@ function renderPlayers(inData) {
 
       const playerImg = document.createElement("img");
       playerImg.src = player.picture;
+      playerImg.setAttribute("loading", "lazy");
       card.appendChild(playerImg);
 
       const info = document.createElement("div");
