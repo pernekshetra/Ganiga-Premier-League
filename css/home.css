@@ -16,10 +16,33 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    img {
-      width: 100%;
-      max-width: 200px;
-      height: auto;
+    > .card {
+      border-radius: 4px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      img {
+        width: 100%;
+        max-width: 225px;
+        height: auto;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 4px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 225px;
+        padding: 8px;
+        h4 {
+          text-align: center;
+        }
+        p {
+          opacity: 0.7;
+          text-align: center;
+        }
+      }
     }
   }
 }
