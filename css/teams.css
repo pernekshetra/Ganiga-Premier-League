@@ -170,6 +170,11 @@ td {
   padding: 16px 0;
 }
 
+.player-img{
+    width: 260px;
+    height: 280px;
+}
+
 @media screen and (max-width: 712px) {
   .row {
     flex-wrap: wrap;
