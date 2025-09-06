@@ -80,3 +80,7 @@
     border-radius: 4px;
   }
 }
+
+a.team-logo{
+  color: var(--theme-primary-color);
+}
