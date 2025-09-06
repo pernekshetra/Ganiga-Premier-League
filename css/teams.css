@@ -92,7 +92,7 @@
 
     .flex-align{
         width: 100%;
-        max-width: 1000px;
+        max-width: 300px;
         display: flex;
         flex-direction : column;
         justify-content: space-between;
@@ -100,10 +100,23 @@
         gap : 20px;
     }
 
-    .primary-text-color{
+    h3{
+        max-inline-size: 100%;
+    }
+
+    .primary-text{
         color : var(--theme-primary-color);
         font-size  : 40px;
         text-align : center;
+    }
+
+    .primary-text-md{
+        font-size: 24px;
+    }
+
+    .primary-text-color{
+        color : var(--theme-primary-color);
+        text-align: center;
     }
 
     .parent{
@@ -111,9 +124,9 @@
     }
 
     .outline{
-        /* border : 2px solid var(--theme-primary-color); */
         padding : 20px;
         border-radius : 8px;
+        max-width: 100% !important
     }
 
     .row{
@@ -122,11 +135,50 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 50px;
+        gap: 10%;
     }
+
+    .card-outline{
+        border-radius: 4px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        padding: 12px;
+    }
+
+    .table-container{
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    table {
+        background-color: var(--theme-primary-color);
+        width: 100%;
+        max-width: 1000px;
+        border-radius: 0;
+        margin-top: 40px;
+    }
+    
+    th, td {
+        background-color: var(--theme-secondary-color);
+    }
+    
+    th{
+        font-size: 24px;
+    }
+
+    td{
+        padding: 16px 0;
+    }
+
 
     @media screen and (max-width : 712px) {
         .row{
             flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card-gap{
+            margin-bottom: 20px;
         }
     }
