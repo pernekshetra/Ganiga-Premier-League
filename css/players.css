@@ -1,4 +1,11 @@
-#players {
+.team-players {
+  margin-top: 50px;
+  & > h3 {
+    margin-bottom: 50px;
+  }
+}
+
+#players, #team-players-table {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
