@@ -2,7 +2,7 @@
   {
     "id": "#2025-1",
     "name": "Ramdas D",
-    "picture": "../assets/players/1.jpeg",
+    "picture": "../assets/players/1.jpg",
     "parents": "s/o Subbha patali",
     "place": "Mangalore",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -11,7 +11,7 @@
   {
     "id": "#2025-2",
     "name": "Sooraj V R",
-    "picture": "../assets/players/2.jpeg",
+    "picture": "../assets/players/2.jpg",
     "parents": "s/o Ravichandra",
     "place": "Mangaluru",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -20,7 +20,7 @@
   {
     "id": "#2025-3",
     "name": "Akshith D K",
-    "picture": "../assets/players/3.png",
+    "picture": "../assets/players/3.jpg",
     "parents": "s/o Divakara ky",
     "place": "Manglore",
     "category": "Bowler, Right Hand, Right Hand Spin",
@@ -29,7 +29,7 @@
   {
     "id": "#2025-4",
     "name": "Vijith D K",
-    "picture": "../assets/players/4.png",
+    "picture": "../assets/players/4.jpg",
     "parents": "s/o Koragappa A D",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -38,7 +38,7 @@
   {
     "id": "#2025-5",
     "name": "Rakshith B S",
-    "picture": "../assets/players/5.png",
+    "picture": "../assets/players/5.jpg",
     "parents": "s/o Shankara patali",
     "place": "Bantwal",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -47,7 +47,7 @@
   {
     "id": "#2025-6",
     "name": "Abhilash N",
-    "picture": "../assets/players/6.png",
+    "picture": "../assets/players/6.jpg",
     "parents": "s/o Ramakrishna N",
     "place": "Bantwal",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -56,7 +56,7 @@
   {
     "id": "#2025-7",
     "name": "Ganesh",
-    "picture": "../assets/players/7.png",
+    "picture": "../assets/players/7.jpg",
     "parents": "s/o Shankara Patali",
     "place": "Bantwal",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -65,7 +65,7 @@
   {
     "id": "#2025-8",
     "name": "Manohara",
-    "picture": "../assets/players/8.png",
+    "picture": "../assets/players/8.jpg",
     "parents": "s/o Thimmappa patali",
     "place": "Puttur",
     "category": "All-rounder, Left Hand, Left Hand Fast",
@@ -74,7 +74,7 @@
   {
     "id": "#2025-9",
     "name": "Krishna",
-    "picture": "../assets/players/9.png",
+    "picture": "../assets/players/9.jpg",
     "parents": "s/o Rama Patali",
     "place": "Bantwal",
     "category": "Batsman, Right Hand",
@@ -83,7 +83,7 @@
   {
     "id": "#2025-10",
     "name": "Shivashankara.D",
-    "picture": "../assets/players/10.png",
+    "picture": "../assets/players/10.jpg",
     "parents": "s/o Mana patali",
     "place": "Bantwal",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -92,7 +92,7 @@
   {
     "id": "#2025-11",
     "name": "Subraya k",
-    "picture": "../assets/players/11.png",
+    "picture": "../assets/players/11.jpg",
     "parents": "s/o Chanda patali",
     "place": "Bantwal",
     "category": "Batsman, Left Hand",
@@ -101,7 +101,7 @@
   {
     "id": "#2025-12",
     "name": "Udaya D",
-    "picture": "../assets/players/12.png",
+    "picture": "../assets/players/12.jpg",
     "parents": "s/o Mana patali",
     "place": "Bantwal",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -110,7 +110,7 @@
   {
     "id": "#2025-13",
     "name": "Nithin Raj",
-    "picture": "../assets/players/13.png",
+    "picture": "../assets/players/13.jpg",
     "parents": "s/o Mohanan P",
     "place": "Bantwal",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -119,7 +119,7 @@
   {
     "id": "#2025-14",
     "name": "Madhava D",
-    "picture": "../assets/players/14.png",
+    "picture": "../assets/players/14.jpg",
     "parents": "s/o Mana patali",
     "place": "Bantwal",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -128,7 +128,7 @@
   {
     "id": "#2025-15",
     "name": "Vikyath G  Adkar",
-    "picture": "../assets/players/15.png",
+    "picture": "../assets/players/15.jpg",
     "parents": "s/o Ganesh Kumar B",
     "place": "Sulya",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -137,7 +137,7 @@
   {
     "id": "#2025-16",
     "name": "Lakshmeesha",
-    "picture": "../assets/players/16.png",
+    "picture": "../assets/players/16.jpg",
     "parents": "s/o Rama Patali",
     "place": "Sullia",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -146,7 +146,7 @@
   {
     "id": "#2025-17",
     "name": "Abhishek A R",
-    "picture": "../assets/players/17.png",
+    "picture": "../assets/players/17.jpg",
     "parents": "s/o Ramakrishna A",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -155,7 +155,7 @@
   {
     "id": "#2025-18",
     "name": "Manvith",
-    "picture": "../assets/players/18.png",
+    "picture": "../assets/players/18.jpg",
     "parents": "s/o Madhava patali",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -164,7 +164,7 @@
   {
     "id": "#2025-19",
     "name": "Srikanth",
-    "picture": "../assets/players/19.png",
+    "picture": "../assets/players/19.jpg",
     "parents": "s/o Batya patali",
     "place": "Sullia",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -173,7 +173,7 @@
   {
     "id": "#2025-20",
     "name": "Bhavith",
-    "picture": "../assets/players/20.png",
+    "picture": "../assets/players/20.jpg",
     "parents": "s/o Kanna patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -182,7 +182,7 @@
   {
     "id": "#2025-21",
     "name": "Vishak K M",
-    "picture": "../assets/players/21.png",
+    "picture": "../assets/players/21.jpg",
     "parents": "s/o K c Mohan",
     "place": "Manjeshwara",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -191,7 +191,7 @@
   {
     "id": "#2025-22",
     "name": "Ramachandran",
-    "picture": "../assets/players/22.png",
+    "picture": "../assets/players/22.jpg",
     "parents": "s/o Mahalinga patali",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -200,7 +200,7 @@
   {
     "id": "#2025-23",
     "name": "Arun M C",
-    "picture": "../assets/players/23.png",
+    "picture": "../assets/players/23.jpg",
     "parents": "s/o Manappa k",
     "place": "Kasargod",
     "category": "All-rounder, Right Hand, Right Hand Spin",
@@ -209,7 +209,7 @@
   {
     "id": "#2025-24",
     "name": "Mithun R Krishna",
-    "picture": "../assets/players/24.png",
+    "picture": "../assets/players/24.jpg",
     "parents": "s/o Radhakrishna S",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -218,7 +218,7 @@
   {
     "id": "#2025-25",
     "name": "Santhosh N",
-    "picture": "../assets/players/25.png",
+    "picture": "../assets/players/25.jpg",
     "parents": "s/o Babu",
     "place": "Manjsewara",
     "category": "Batsman, Left Hand, Left Hand Spin",
@@ -227,7 +227,7 @@
   {
     "id": "#2025-26",
     "name": "Mahesh P",
-    "picture": "../assets/players/26.png",
+    "picture": "../assets/players/26.jpg",
     "parents": "s/o P Mahalinga",
     "place": "Manjeshwara",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -236,7 +236,7 @@
   {
     "id": "#2025-27",
     "name": "Vinay P",
-    "picture": "../assets/players/27.png",
+    "picture": "../assets/players/27.jpg",
     "parents": "s/o Mahalinga P",
     "place": "Mangalore",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -245,7 +245,7 @@
   {
     "id": "#2025-28",
     "name": "SUDEESH C",
-    "picture": "../assets/players/28.png",
+    "picture": "../assets/players/28.jpg",
     "parents": "s/o VIJAYA A",
     "place": "Kasaragod",
     "category": "All-rounder, Left Hand, Left Hand Fast",
@@ -254,7 +254,7 @@
   {
     "id": "#2025-29",
     "name": "Vidyananda",
-    "picture": "../assets/players/29.png",
+    "picture": "../assets/players/29.jpg",
     "parents": "s/o Subba Patali",
     "place": "Bantwal",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -263,7 +263,7 @@
   {
     "id": "#2025-30",
     "name": "Abhilash P",
-    "picture": "../assets/players/30.png",
+    "picture": "../assets/players/30.jpg",
     "parents": "s/o Mahalinga P",
     "place": "Manjeshawara",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -272,7 +272,7 @@
   {
     "id": "#2025-31",
     "name": "Gokul N",
-    "picture": "../assets/players/31.png",
+    "picture": "../assets/players/31.jpg",
     "parents": "s/o Narayana K",
     "place": "Kasaragod",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -281,7 +281,7 @@
   {
     "id": "#2025-32",
     "name": "Ravi P",
-    "picture": "../assets/players/32.png",
+    "picture": "../assets/players/32.jpg",
     "parents": "s/o Keshava patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -290,7 +290,7 @@
   {
     "id": "#2025-33",
     "name": "Ravi chandra J",
-    "picture": "../assets/players/33.png",
+    "picture": "../assets/players/33.jpg",
     "parents": "s/o Babu Patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -299,7 +299,7 @@
   {
     "id": "#2025-34",
     "name": "DHANUSH K",
-    "picture": "../assets/players/34.png",
+    "picture": "../assets/players/34.jpg",
     "parents": "s/o Janardhana K",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -308,7 +308,7 @@
   {
     "id": "#2025-35",
     "name": "Maneesh MM",
-    "picture": "../assets/players/35.png",
+    "picture": "../assets/players/35.jpg",
     "parents": "s/o Malingan H",
     "place": "Kasaragod",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -317,7 +317,7 @@
   {
     "id": "#2025-36",
     "name": "Aneesh Kumar",
-    "picture": "../assets/players/36.png",
+    "picture": "../assets/players/36.jpg",
     "parents": "s/o Narayana patali",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -326,7 +326,7 @@
   {
     "id": "#2025-37",
     "name": "Shashidhar K",
-    "picture": "../assets/players/37.png",
+    "picture": "../assets/players/37.jpg",
     "parents": "s/o Narayan Patali",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -335,7 +335,7 @@
   {
     "id": "#2025-38",
     "name": "Ajith Prasad K R",
-    "picture": "../assets/players/38.png",
+    "picture": "../assets/players/38.jpg",
     "parents": "s/o Ramachandra Patali K",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -344,7 +344,7 @@
   {
     "id": "#2025-39",
     "name": "Karthik N",
-    "picture": "../assets/players/39.png",
+    "picture": "../assets/players/39.jpg",
     "parents": "s/o Narayana Patali",
     "place": "Sulia",
     "category": "Batsman, Right Hand",
@@ -353,7 +353,7 @@
   {
     "id": "#2025-40",
     "name": "Vijaydas",
-    "picture": "../assets/players/40.png",
+    "picture": "../assets/players/40.jpg",
     "parents": "s/o Subbapatali",
     "place": "Kasaragood",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -362,7 +362,7 @@
   {
     "id": "#2025-41",
     "name": "Avinash K. S",
-    "picture": "../assets/players/41.png",
+    "picture": "../assets/players/41.jpg",
     "parents": "s/o Subraya",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -371,7 +371,7 @@
   {
     "id": "#2025-42",
     "name": "Kevalram BV",
-    "picture": "../assets/players/42.png",
+    "picture": "../assets/players/42.jpg",
     "parents": "s/o H Venkatramana",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -380,7 +380,7 @@
   {
     "id": "#2025-43",
     "name": "Manoj kumar P S",
-    "picture": "../assets/players/43.png",
+    "picture": "../assets/players/43.jpg",
     "parents": "s/o Sukumaran P",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -389,7 +389,7 @@
   {
     "id": "#2025-44",
     "name": "SUKHESH Adkar",
-    "picture": "../assets/players/44.png",
+    "picture": "../assets/players/44.jpg",
     "parents": "s/o MAHALUNGA PATALI",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -398,7 +398,7 @@
   {
     "id": "#2025-45",
     "name": "Vinesh",
-    "picture": "../assets/players/45.png",
+    "picture": "../assets/players/45.jpg",
     "parents": "s/o Kumaran",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -407,7 +407,7 @@
   {
     "id": "#2025-46",
     "name": "Deekshith S P",
-    "picture": "../assets/players/46.png",
+    "picture": "../assets/players/46.jpg",
     "parents": "s/o Shankara Patali A",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -416,7 +416,7 @@
   {
     "id": "#2025-47",
     "name": "AKSHAY KUMAR K",
-    "picture": "../assets/players/47.png",
+    "picture": "../assets/players/47.jpg",
     "parents": "s/o GIRISHAN K",
     "place": "Kasaragod",
     "category": "Batsman, Left Hand",
@@ -425,7 +425,7 @@
   {
     "id": "#2025-48",
     "name": "Aneesh",
-    "picture": "../assets/players/48.png",
+    "picture": "../assets/players/48.jpg",
     "parents": "s/o Narayan",
     "place": "Mangalore",
     "category": "Batsman, Right Hand",
@@ -434,7 +434,7 @@
   {
     "id": "#2025-49",
     "name": "Datta kiran A",
-    "picture": "../assets/players/49.jpeg",
+    "picture": "../assets/players/49.jpg",
     "parents": "s/o Chandra K",
     "place": "Kotekar",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -443,7 +443,7 @@
   {
     "id": "#2025-50",
     "name": "Manoj B",
-    "picture": "../assets/players/50.jpeg",
+    "picture": "../assets/players/50.jpg",
     "parents": "s/o Narayana B",
     "place": "Manjeshwaram",
     "category": "All-rounder, Right Hand, Right Hand Spin",
@@ -452,7 +452,7 @@
   {
     "id": "#2025-51",
     "name": "Shreesha Krishna",
-    "picture": "../assets/players/51.png",
+    "picture": "../assets/players/51.jpg",
     "parents": "s/o Dr M Gopalakrishna",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -461,7 +461,7 @@
   {
     "id": "#2025-52",
     "name": "Prabhakara. B",
-    "picture": "../assets/players/52.png",
+    "picture": "../assets/players/52.jpg",
     "parents": "s/o Batya patali",
     "place": "Puttur",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -470,7 +470,7 @@
   {
     "id": "#2025-53",
     "name": "Dhanvith N S",
-    "picture": "../assets/players/53.png",
+    "picture": "../assets/players/53.jpg",
     "parents": "s/o Narayana Patali",
     "place": "Puttur",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -479,7 +479,7 @@
   {
     "id": "#2025-54",
     "name": "Maneesh S",
-    "picture": "../assets/players/54.png",
+    "picture": "../assets/players/54.jpg",
     "parents": "s/o Padmanabha S",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -488,7 +488,7 @@
   {
     "id": "#2025-55",
     "name": "Deekshith K",
-    "picture": "../assets/players/55.png",
+    "picture": "../assets/players/55.jpg",
     "parents": "s/o Shree Rama Patali",
     "place": "Kadaba",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -497,7 +497,7 @@
   {
     "id": "#2025-56",
     "name": "Ajith prasad",
-    "picture": "../assets/players/56.png",
+    "picture": "../assets/players/56.jpg",
     "parents": "s/o Narayana",
     "place": "Putturu",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -506,7 +506,7 @@
   {
     "id": "#2025-57",
     "name": "Lavya",
-    "picture": "../assets/players/57.png",
+    "picture": "../assets/players/57.jpg",
     "parents": "s/o Annu patali",
     "place": "Kadaba",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -515,7 +515,7 @@
   {
     "id": "#2025-58",
     "name": "Nithish B K",
-    "picture": "../assets/players/58.png",
+    "picture": "../assets/players/58.jpg",
     "parents": "s/o Kannan patali",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -524,7 +524,7 @@
   {
     "id": "#2025-59",
     "name": "Nirmal G P",
-    "picture": "../assets/players/59.png",
+    "picture": "../assets/players/59.jpg",
     "parents": "s/o Giridhar DS",
     "place": "Puttur",
     "category": "Bowler, Right Hand, Right Hand Spin",
@@ -533,7 +533,7 @@
   {
     "id": "#2025-60",
     "name": "Karthik B",
-    "picture": "../assets/players/60.png",
+    "picture": "../assets/players/60.jpg",
     "parents": "s/o Late Rama patali",
     "place": "Mangaluru",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -542,7 +542,7 @@
   {
     "id": "#2025-61",
     "name": "Yashas K",
-    "picture": "../assets/players/61.png",
+    "picture": "../assets/players/61.jpg",
     "parents": "s/o Keshav patali D",
     "place": "Mangalore",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -551,7 +551,7 @@
   {
     "id": "#2025-62",
     "name": "Prasad B",
-    "picture": "../assets/players/62.png",
+    "picture": "../assets/players/62.jpg",
     "parents": "s/o Kunhapatali",
     "place": "Puttur",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -560,7 +560,7 @@
   {
     "id": "#2025-63",
     "name": "Lakshmeesha K",
-    "picture": "../assets/players/63.png",
+    "picture": "../assets/players/63.jpg",
     "parents": "s/o Thimmappa Patali K",
     "place": "Puttur",
     "category": "Batsman, Right Hand",
@@ -569,7 +569,7 @@
   {
     "id": "#2025-64",
     "name": "Maneesh P V",
-    "picture": "../assets/players/64.png",
+    "picture": "../assets/players/64.jpg",
     "parents": "s/o Vidyadhara N",
     "place": "Puttur",
     "category": "Wicket Keeper, Right Hand, Right Hand Fast",
@@ -578,7 +578,7 @@
   {
     "id": "#2025-65",
     "name": "Vijeth A",
-    "picture": "../assets/players/65.png",
+    "picture": "../assets/players/65.jpg",
     "parents": "s/o Shankara Patali",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -587,7 +587,7 @@
   {
     "id": "#2025-66",
     "name": "Mahesh",
-    "picture": "../assets/players/66.png",
+    "picture": "../assets/players/66.jpg",
     "parents": "s/o Narayan",
     "place": "Ullala",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -596,7 +596,7 @@
   {
     "id": "#2025-67",
     "name": "Ashwath",
-    "picture": "../assets/players/67.png",
+    "picture": "../assets/players/67.jpg",
     "parents": "s/o Rama Patali",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Left Hand Spin",
@@ -605,7 +605,7 @@
   {
     "id": "#2025-68",
     "name": "Vineeth k",
-    "picture": "../assets/players/68.png",
+    "picture": "../assets/players/68.jpg",
     "parents": "s/o Mohan patali",
     "place": "Manjeshwar",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -614,7 +614,7 @@
   {
     "id": "#2025-69",
     "name": "DEEPAK S P",
-    "picture": "../assets/players/69.png",
+    "picture": "../assets/players/69.jpg",
     "parents": "s/o SHANKARA PATALI A",
     "place": "Kasargod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -623,7 +623,7 @@
   {
     "id": "#2025-70",
     "name": "Devidas D",
-    "picture": "../assets/players/70.png",
+    "picture": "../assets/players/70.jpg",
     "parents": "s/o Subba patali",
     "place": "Kasaragod",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -632,7 +632,7 @@
   {
     "id": "#2025-71",
     "name": "Sandesh P G",
-    "picture": "../assets/players/71.png",
+    "picture": "../assets/players/71.jpg",
     "parents": "s/o Gopalakrishna",
     "place": "Manjeshwara",
     "category": "Batsman, Right Hand",
@@ -641,7 +641,7 @@
   {
     "id": "#2025-72",
     "name": "Harshith",
-    "picture": "../assets/players/72.png",
+    "picture": "../assets/players/72.jpg",
     "parents": "s/o Jayachandra",
     "place": "Kasaragod",
     "category": "Wicket Keeper, Right Hand",
@@ -650,7 +650,7 @@
   {
     "id": "#2025-73",
     "name": "Preethesh J",
-    "picture": "../assets/players/73.png",
+    "picture": "../assets/players/73.jpg",
     "parents": "s/o Jayaprakash K",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -659,7 +659,7 @@
   {
     "id": "#2025-74",
     "name": "Anvith K S",
-    "picture": "../assets/players/74.png",
+    "picture": "../assets/players/74.jpg",
     "parents": "s/o K Sridhar",
     "place": "Mangalore",
     "category": "Batsman, Right Hand",
@@ -668,7 +668,7 @@
   {
     "id": "#2025-75",
     "name": "Arunkumar",
-    "picture": "../assets/players/75.png",
+    "picture": "../assets/players/75.jpg",
     "parents": "s/o Girishan",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand",
@@ -677,7 +677,7 @@
   {
     "id": "#2025-76",
     "name": "Rithesh P",
-    "picture": "../assets/players/76.png",
+    "picture": "../assets/players/76.jpg",
     "parents": "s/o Mahalinga",
     "place": "Manjeswar",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -686,7 +686,7 @@
   {
     "id": "#2025-77",
     "name": "Manvith PV",
-    "picture": "../assets/players/77.png",
+    "picture": "../assets/players/77.jpg",
     "parents": "s/o Vidyadhara N",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -695,7 +695,7 @@
   {
     "id": "#2025-78",
     "name": "Hrithik",
-    "picture": "../assets/players/78.png",
+    "picture": "../assets/players/78.jpg",
     "parents": "s/o Chandra patali",
     "place": "Puttur",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -704,7 +704,7 @@
   {
     "id": "#2025-79",
     "name": "Deekshith Bellare",
-    "picture": "../assets/players/79.png",
+    "picture": "../assets/players/79.jpg",
     "parents": "s/o Nettar Mahalinga Patali",
     "place": "Puttur",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -713,7 +713,7 @@
   {
     "id": "#2025-80",
     "name": "Prashanth A",
-    "picture": "../assets/players/80.png",
+    "picture": "../assets/players/80.jpg",
     "parents": "s/o Damodar",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Spin",
@@ -722,7 +722,7 @@
   {
     "id": "#2025-81",
     "name": "Ranjith",
-    "picture": "../assets/players/81.png",
+    "picture": "../assets/players/81.jpg",
     "parents": "s/o Prakash",
     "place": "Puttur",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -731,7 +731,7 @@
   {
     "id": "#2025-82",
     "name": "Dinakar K",
-    "picture": "../assets/players/82.png",
+    "picture": "../assets/players/82.jpg",
     "parents": "s/o Kunhimarapatali",
     "place": "Puttur",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -740,7 +740,7 @@
   {
     "id": "#2025-83",
     "name": "Anish Kumar K",
-    "picture": "../assets/players/83.png",
+    "picture": "../assets/players/83.jpg",
     "parents": "s/o Madhava",
     "place": "Kasaragod",
     "category": "Batsman, Right Hand, Right hand Bowl",
@@ -749,7 +749,7 @@
   {
     "id": "#2025-84",
     "name": "Rohith Patali",
-    "picture": "../assets/players/84.png",
+    "picture": "../assets/players/84.jpg",
     "parents": "s/o Pakeera Patali Pattumoole",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -758,7 +758,7 @@
   {
     "id": "#2025-85",
     "name": "Sandeep Kumar K",
-    "picture": "../assets/players/85.png",
+    "picture": "../assets/players/85.jpg",
     "parents": "s/o Krishna Patali",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -767,7 +767,7 @@
   {
     "id": "#2025-86",
     "name": "Akshith Nettar Mahalinga",
-    "picture": "../assets/players/86.png",
+    "picture": "../assets/players/86.jpg",
     "parents": "s/o Mahalinga Patali N",
     "place": "Puttur",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -776,7 +776,7 @@
   {
     "id": "#2025-87",
     "name": "Harshith",
-    "picture": "../assets/players/87.png",
+    "picture": "../assets/players/87.jpg",
     "parents": "s/o Devaraja",
     "place": "Kundapura",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -785,7 +785,7 @@
   {
     "id": "#2025-88",
     "name": "Aneesh",
-    "picture": "../assets/players/88.png",
+    "picture": "../assets/players/88.jpg",
     "parents": "s/o Appu Patali",
     "place": "Kadaba",
     "category": "All-rounder, Left Hand, Left Hand Fast",
@@ -794,7 +794,7 @@
   {
     "id": "#2025-89",
     "name": "Dinakara K",
-    "picture": "../assets/players/89.png",
+    "picture": "../assets/players/89.jpg",
     "parents": "s/o Narayana Patali",
     "place": "Mangaluru",
     "category": "Batsman, Left Hand, Left hand spin",
@@ -803,7 +803,7 @@
   {
     "id": "#2025-90",
     "name": "Anvith Raj",
-    "picture": "../assets/players/90.png",
+    "picture": "../assets/players/90.jpg",
     "parents": "s/o RAJEESH PATALI",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -812,7 +812,7 @@
   {
     "id": "#2025-91",
     "name": "Bhaskara",
-    "picture": "../assets/players/91.png",
+    "picture": "../assets/players/91.jpg",
     "parents": "s/o Kunhi Rama Patali",
     "place": "Puttur",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -821,7 +821,7 @@
   {
     "id": "#2025-92",
     "name": "AJITH M P",
-    "picture": "../assets/players/92.png",
+    "picture": "../assets/players/92.jpg",
     "parents": "s/o MAHALINGA PATALI",
     "place": "MANJESWARAM",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -830,7 +830,7 @@
   {
     "id": "#2025-93",
     "name": "Ashwith",
-    "picture": "../assets/players/93.png",
+    "picture": "../assets/players/93.jpg",
     "parents": "s/o Appu Patali",
     "place": "Kadaba",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -839,7 +839,7 @@
   {
     "id": "#2025-94",
     "name": "Thanvish",
-    "picture": "../assets/players/94.png",
+    "picture": "../assets/players/94.jpg",
     "parents": "s/o Chandrashekhara A",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -848,7 +848,7 @@
   {
     "id": "#2025-95",
     "name": "Balakrishna adkar",
-    "picture": "../assets/players/95.png",
+    "picture": "../assets/players/95.jpg",
     "parents": "s/o Shankara patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -857,7 +857,7 @@
   {
     "id": "#2025-96",
     "name": "Harisha A",
-    "picture": "../assets/players/96.png",
+    "picture": "../assets/players/96.jpg",
     "parents": "s/o Shankarapatali A",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -866,7 +866,7 @@
   {
     "id": "#2025-97",
     "name": "Rakshith k",
-    "picture": "../assets/players/97.png",
+    "picture": "../assets/players/97.jpg",
     "parents": "s/o Janardhana patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -875,7 +875,7 @@
   {
     "id": "#2025-98",
     "name": "Mithun raj",
-    "picture": "../assets/players/98.png",
+    "picture": "../assets/players/98.jpg",
     "parents": "s/o Narayana patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -884,7 +884,7 @@
   {
     "id": "#2025-99",
     "name": "Vijeth raj U N",
-    "picture": "../assets/players/99.png",
+    "picture": "../assets/players/99.jpg",
     "parents": "s/o Narayana patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -893,7 +893,7 @@
   {
     "id": "#2025-100",
     "name": "Shashank K M",
-    "picture": "../assets/players/100.png",
+    "picture": "../assets/players/100.jpg",
     "parents": "s/o Madhava patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -902,7 +902,7 @@
   {
     "id": "#2025-101",
     "name": "Ganesh Balila",
-    "picture": "../assets/players/101.png",
+    "picture": "../assets/players/101.jpg",
     "parents": "s/o Narayana Patali",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -911,7 +911,7 @@
   {
     "id": "#2025-102",
     "name": "Pranamraj U N",
-    "picture": "../assets/players/102.png",
+    "picture": "../assets/players/102.jpg",
     "parents": "s/o Narayana patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Spin",
@@ -920,7 +920,7 @@
   {
     "id": "#2025-103",
     "name": "KIRANRAJ K S",
-    "picture": "../assets/players/103.png",
+    "picture": "../assets/players/103.jpg",
     "parents": "s/o SHANKARA PATALI",
     "place": "PUTTUR",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -929,7 +929,7 @@
   {
     "id": "#2025-104",
     "name": "Lakshmeesha Bellare",
-    "picture": "../assets/players/104.png",
+    "picture": "../assets/players/104.jpg",
     "parents": "s/o Shankara Patali",
     "place": "Sullia",
     "category": "Bowler, Left Hand, Left Hand Fast",
@@ -938,7 +938,7 @@
   {
     "id": "#2025-105",
     "name": "SACHITH P S",
-    "picture": "../assets/players/105.png",
+    "picture": "../assets/players/105.jpg",
     "parents": "s/o Subban Chettiyar",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -947,7 +947,7 @@
   {
     "id": "#2025-106",
     "name": "Harish",
-    "picture": "../assets/players/106.png",
+    "picture": "../assets/players/106.jpg",
     "parents": "s/o Ramachandra",
     "place": "Puttur",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -956,7 +956,7 @@
   {
     "id": "#2025-107",
     "name": "Pruthviraj",
-    "picture": "../assets/players/107.png",
+    "picture": "../assets/players/107.jpg",
     "parents": "s/o Sanjeeva",
     "place": "Manjeswara",
     "category": "All-rounder, Left Hand, Left Hand Fast",
@@ -965,7 +965,7 @@
   {
     "id": "#2025-108",
     "name": "BHAVISH",
-    "picture": "../assets/players/108.png",
+    "picture": "../assets/players/108.jpg",
     "parents": "s/o SHANKAR PATALI",
     "place": "Bantwal",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -974,7 +974,7 @@
   {
     "id": "#2025-109",
     "name": "Nithish Kumar A M",
-    "picture": "../assets/players/109.png",
+    "picture": "../assets/players/109.jpg",
     "parents": "s/o Manamohana A K",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -983,7 +983,7 @@
   {
     "id": "#2025-110",
     "name": "Sandeepa M",
-    "picture": "../assets/players/110.png",
+    "picture": "../assets/players/110.jpg",
     "parents": "s/o Chanda patali",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -992,7 +992,7 @@
   {
     "id": "#2025-111",
     "name": "Damodhara A",
-    "picture": "../assets/players/111.png",
+    "picture": "../assets/players/111.jpg",
     "parents": "s/o Shankara Patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -1001,7 +1001,7 @@
   {
     "id": "#2025-112",
     "name": "Rajesh kudekal",
-    "picture": "../assets/players/112.png",
+    "picture": "../assets/players/112.jpg",
     "parents": "s/o Chanda Patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand",
@@ -1010,7 +1010,7 @@
   {
     "id": "#2025-113",
     "name": "Madhava K",
-    "picture": "../assets/players/113.png",
+    "picture": "../assets/players/113.jpg",
     "parents": "s/o Subba patali",
     "place": "Sullia",
     "category": "Bowler, Right Hand, Right Hand Fast",
@@ -1019,7 +1019,7 @@
   {
     "id": "#2025-114",
     "name": "Madhuraj M N",
-    "picture": "../assets/players/114.png",
+    "picture": "../assets/players/114.jpg",
     "parents": "s/o Madhava",
     "place": "Kasaragod",
     "category": "All-rounder, Right Hand, Right Hand Spin",
@@ -1028,7 +1028,7 @@
   {
     "id": "#2025-115",
     "name": "Prashantha K M",
-    "picture": "../assets/players/115.png",
+    "picture": "../assets/players/115.jpg",
     "parents": "s/o Malinga K S",
     "place": "Madikeri",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -1037,7 +1037,7 @@
   {
     "id": "#2025-116",
     "name": "Kishanraj A G",
-    "picture": "../assets/players/116.png",
+    "picture": "../assets/players/116.jpg",
     "parents": "s/o Gopala",
     "place": "Sullia",
     "category": "All-rounder, Right Hand, Right Hand Fast",
@@ -1046,7 +1046,7 @@
   {
     "id": "#2025-117",
     "name": "Bhavanraj",
-    "picture": "../assets/players/117.png",
+    "picture": "../assets/players/117.jpg",
     "parents": "s/o Rama Patali",
     "place": "Sullia",
     "category": "Batsman, Right Hand, Right Hand Fast",
@@ -1055,7 +1055,7 @@
   {
     "id": "#2025-118",
     "name": "Akhilesh P",
-    "picture": "../assets/players/118.png",
+    "picture": "../assets/players/118.jpg",
     "parents": "s/o Narayana Patali",
     "place": "Sullia",
     "category": "Bowler, Right Hand, Left Hand Fast",
@@ -1073,7 +1073,7 @@
   {
     "id": "#2025-120",
     "name": "Pradeepa K M",
-    "picture": "../assets/players/120.png",
+    "picture": "../assets/players/120.jpg",
     "parents": "s/o Malinga Patali K",
     "place": "Madikeri",
     "category": "Batsman, Right Hand, Right Hand Spin",
