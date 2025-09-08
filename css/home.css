@@ -101,6 +101,8 @@ a.team-logo{
     display: flex;
     justify-content: center;
     margin-bottom: 90px;
+    padding-inline: 10px;
+    box-sizing: border-box;
 }
 
 .inner-layout-width {
