@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#3C4C5C">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../css/teams.css">
+    <link rel="stylesheet" href="../../css/players.css">
     <meta property="og:type" content="website">
     <meta property="og:url" content="gpl.rakshithnettar.com">
     <meta property="og:title" content="Ganiga Premier League">
@@ -26,15 +27,14 @@
     <meta name="twitter:title" content="Ganiga Premier League">
     <meta name="twitter:description" content="website for all things GPL">
     <meta name="twitter:image" content="https://gpl.rakshithnettar.com/meta.jpg">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h3><span id="head"><img width="48" height="48" src="../../assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span></h3>
-        <nav>
-            <a href="../../index.html" class="button">HOME</a>
-            <a href="../../players/index.html" class="button">PLAYERS</a>
-            <!-- <a href="/points" class="button">POINTS TABLE</a> -->
-        </nav>
+      <h3><span id="head"><img width="48" height="48" src="../../assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span></h3>
+      <nav>
+        <a href="../../index.html" class="button">HOME</a>
+        <a href="../../players/index.html" class="button">PLAYERS</a>
+      </nav>
     </header>
     <main class="parent">
       <section class="flex-align outline">
@@ -53,75 +53,16 @@
           <h4 class="primary-text-color">Captain Name</h4>
         </div>
       </section>
-      <section class="table-container">
+      <section class="team-players">
         <h3 class="primary-text">Players</h3>
-        <table>
-          <tr>
-            <th>Player Name</th>
-            <th>Player Type</th>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
+        <div id="team-players-table"> </div>
       </section>
     </main>
-</body>
+    <script src="../../../utils/assets-handler.js"></script>
+    <script src="../../teams/teams.js"></script>
+    <script type="module">
+      import data from '../../data/players.json' with { type: 'json' };
+      renderTeam(data);
+    </script>
+  </body>
 </html>

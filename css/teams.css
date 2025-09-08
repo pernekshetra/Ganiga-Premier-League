@@ -153,32 +153,6 @@ h3 {
   padding: 12px;
 }
 
-.table-container {
-  width: 100%;
-  margin-top: 80px;
-  margin-bottom: 40px;
-}
-
-table {
-  background-color: var(--theme-primary-color);
-  width: 100%;
-  max-width: 1000px;
-  border-radius: 0;
-  margin-top: 40px;
-}
-
-th, td {
-  background-color: var(--theme-secondary-color);
-}
-
-th {
-  font-size: 24px;
-}
-
-td {
-  padding: 16px 0;
-}
-
 .player-img{
     width: 260px;
     height: 280px;
