@@ -84,3 +84,35 @@
 a.team-logo{
   color: var(--theme-primary-color);
 }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.inner-layout-width {
+  width: 100%;
+  max-width: 926px;
+  margin-top: 32px;
+}
+
+.primary-text-color {
+  color: var(--theme-primary-color);
+}
+
+.sub-text {
+  font-size: 20px;
+}
