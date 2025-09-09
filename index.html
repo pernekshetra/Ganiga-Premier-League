@@ -28,14 +28,13 @@
     <style>
       :root {
         --content-font: 'Akshar', sans-serif;
-        --theme-primary-color: #DBA81F;
-        --theme-secondary-color: #0B1D2F;
+        --theme-primary-color: #011222;
+        --theme-secondary-color: #E9BA24;
         --button-padding: 12px;
-        --text-color: white;
       }
 
       :where(html) {
-        color: var(--text-color);
+        color: var(--theme-primary-color);
       }
 
       * {
@@ -79,8 +78,8 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--theme-secondary-color);
-        color: var(--theme-primary-color);
+        background-color: var(--theme-primary-color);
+        color: var(--theme-secondary-color);
         border-radius: 8px;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
         padding: var(--button-padding);
@@ -130,7 +129,7 @@
         display: flex;
         justify-content: center;
         padding: 30px;
-        background-color: #011222;
+        background-color: var(--theme-primary-color);
         color: white;
       }
     </style>
