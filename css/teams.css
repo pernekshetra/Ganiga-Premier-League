@@ -30,12 +30,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--button-padding);
-  background: #0d375e;
-  background: linear-gradient(
-    45deg,
-    var(--theme-secondary-color) 60%,
-    var(--theme-primary-color) 85%
-  );
   nav {
     display: flex;
     gap: 8px;
@@ -90,6 +84,8 @@ footer {
   display: flex;
   justify-content: center;
   padding: 50px;
+  background-color: #011222;
+  color: white;
 }
 
 .logo {
