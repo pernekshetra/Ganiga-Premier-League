@@ -6,7 +6,7 @@
     max-inline-size: revert;
     margin-bottom: 25px;
   }
-  h4 {
+  h5 {
     max-inline-size: revert;
     color: var(--theme-primary-color);
   }
