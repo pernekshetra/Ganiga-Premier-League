@@ -4,10 +4,11 @@
     text-align: center;
     color: var(--theme-primary-color);
     max-inline-size: revert;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   h4 {
     max-inline-size: revert;
+    color: black;
   }
 }
 
@@ -19,8 +20,9 @@
   align-items: center;
   gap: 20px;
   height: auto;
-  margin: 200px auto;
+  margin: 100px auto;
   color: var(--theme-primary-color);
+  background-color: white;
   > h2 {
     margin-bottom: 30px;
   }
@@ -30,15 +32,30 @@
     justify-content: center;
     gap: 30px;
     > .card {
-      border-radius: 4px;
+      width: 284px;
+      height: 220px;
+      background-color: white;
+      border-radius: 12px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      border-top: 4px solid #E9BA24;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        border-top: 4px solid #011222;
+      }
+      a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
       img {
-        width: 100%;
-        max-width: 225px;
-        height: auto;
-        object-fit: cover;
-        object-position: top;
-        border-radius: 4px;
+        max-width: 120px;
+        height: 120px;
       }
       div {
         display: flex;
@@ -46,13 +63,15 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 225px;
+        max-width: 255px;
         padding: 8px;
-        h4 {
+        h6 {
           text-align: center;
+          color: black;
         }
         p {
-          opacity: 0.7;
+          color: #4B5563; 
+          font-size: 1rem;
           text-align: center;
         }
       }
@@ -60,8 +79,20 @@
   }
 }
 
+#organizers {
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #EBF5FF;
+  .card {
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
 #president-address {
-  margin-top: 100px;
+  margin-bottom: 50px;
   h2 {
     text-align: center;
     color: var(--theme-primary-color);
@@ -70,6 +101,7 @@
   }
   h4 {
     max-inline-size: revert;
+    color: black;
     .name {
       color: var(--theme-primary-color);
     }

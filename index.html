@@ -44,7 +44,7 @@
 
       body {
         font-family: var(--content-font);
-        background-color: var(--theme-secondary-color);
+        background-color: white;
         margin: 0;
       }
 
@@ -120,10 +120,18 @@
         grid-column: 2;
       }
 
+      .full-width {
+        grid-column: 1 / -1;
+        width: 100%;
+        justify-self: stretch;
+      }
+
       footer {
         display: flex;
         justify-content: center;
         padding: 30px;
+        background-color: #011222;
+        color: white;
       }
     </style>
     <!-- Google tag (gtag.js) -->
@@ -176,14 +184,14 @@
           GPL-2025 will also host a Business Expo and a Science Exhibition, providing a platform for entrepreneurship,
           innovation, and knowledge sharing.</h4>
       </section>
-      <section id="teams">
+      <section class="full-width" id="teams">
         <h2>TEAMS</h2>
         <div class="teams">
           <div class="card">
             <a href="./teams/patalichallengersmangalore" class="team-logo">
               <img src="assets/team_logos/1PataliChallengersMangaluru.png" alt="team-logo" />
               <div>
-                <h4>Patali Challengers Mangalore</h4>
+                <h6>Patali Challengers Mangalore</h6>
                 <p>Owner: Hareesh, Mangalore</p>
               </div>
             </a>
@@ -192,7 +200,7 @@
             <a href="./teams/vaniyanwarriorsputtur" class="team-logo">
               <img src="assets/team_logos/2VaniyanWarriorsPuttur.png" alt="team-logo" />
               <div>
-                <h4>Vaniyan Warriors Puttur</h4>
+                <h6>Vaniyan Warriors Puttur</h6>
                 <p>Owner: Ramesh Bakithimar</p>
               </div>
             </a>        
@@ -201,7 +209,7 @@
             <a href="./teams/zeusganigastrikersmangalore" class="team-logo">
               <img src="assets/team_logos/3ZeusGanigaStrickers.png" alt="team-logo" />
               <div>
-                <h4>Zeus Ganiga Strikers Mangalore</h4>
+                <h6>Zeus Ganiga Strikers Mangalore</h6>
                 <p>Owner: Sreenivas N & Rajesh N</p>
               </div>
             </a>
@@ -210,7 +218,7 @@
             <a href="./teams/ganigatitansvitla" class="team-logo">
               <img src="assets/team_logos/4GanigaTitansVitla.png" alt="team-logo" />
               <div>
-                <h4>Ganiga Titans Vitla</h4>
+                <h6>Ganiga Titans Vitla</h6>
                 <p>Owner: Udaya D</p>
               </div>
             </a>
@@ -220,7 +228,7 @@
             <a href="./teams/patalipantherssulya" class="team-logo">
               <img src="assets/team_logos/5PataliPanthersSullia.png" alt="team-logo" />
               <div>
-                <h4>Patali Panthers Sulya</h4>
+                <h6>Patali Panthers Sulya</h6>
                 <p>Owner: Chandrashekhara Uddanthadka</p>
               </div>
             </a>  
@@ -229,7 +237,7 @@
             <a href="./teams/vaniyanelevenperla" class="team-logo">
               <img src="assets/team_logos/6VaniyanEleven.png" alt="team-logo" />
               <div>
-                <h4>Vaniyan Eleven Perla</h4>
+                <h6>Vaniyan Eleven Perla</h6>
                 <p>Owner: Sunil Kumar V</p>
               </div>
             </a>     
@@ -238,7 +246,7 @@
             <a href="./teams/vaniyanblastersseethangoli" class="team-logo">
               <img src="assets/team_logos/7VaniyanBlastarsSeethangoli.png" alt="team-logo" />
               <div>
-                <h4>Vaniyan Blasters Seethangoli</h4>
+                <h6>Vaniyan Blasters Seethangoli</h6>
                 <p>Owner: Gururaj Cs & Radeesh Kumar M</p>
               </div>
             </a>    
@@ -247,21 +255,20 @@
             <a href="./teams/patalihurricaneskuddupadavu" class="team-logo">
               <img src="assets/team_logos/8PataliHurricanes.png" alt="team-logo" />
               <div>
-                <h4>Patali Hurricanes Kuddupadavu</h4>
+                <h6>Patali Hurricanes Kuddupadavu</h6>
                 <p>Owner: Dinesh Ch</p>
               </div>
             </a>          
           </div>
         </div>
       </section>
-      <section id="organizers">
-        <h2>ORGANIZERS</h2>
+      <section class="full-width" id="organizers">
+        <h2>ORGANIZING COMMITTEE</h2>
         <div class="organizers">
           <div class="card">
             <img src="assets/organizers/4.jpg" alt="organizer" />
             <div>
-              <h4>Ravichandra</h4>
-              <h5>Mangalore</h5>
+              <h4>Ravichandra Mangalore</h4>
               <p>95356 27146</p>
             </div>
           </div>
@@ -289,16 +296,14 @@
           <div class="card">
             <img src="assets/organizers/1.jpg" alt="organizer" />
             <div>
-              <h4>Vijeth P S</h4>
-              <h5>Mangalore</h5>
+              <h4>Vijeth P S Mangalore</h4>
               <p>99646 66607</p>
             </div>
           </div>
           <div class="card">
             <img src="assets/organizers/2.jpg" alt="organizer" />
             <div>
-              <h4>Manohar</h4>
-              <h5>Puttur</h5>
+              <h4>Manohar Puttur</h4>
               <p>98801 71193</p>
             </div>
           </div>
