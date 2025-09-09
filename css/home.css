@@ -101,14 +101,15 @@ a.team-logo{
   display: flex;
   justify-content: center;
   margin-bottom: 90px;
-  padding-inline: 10px;
   box-sizing: border-box;
+  background: #011222;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .inner-layout-width {
   width: 100%;
   max-width: 926px;
-  margin-top: 32px;
 }
 
 .primary-text-color {
