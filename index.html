@@ -55,7 +55,9 @@
         align-items: center;
         padding: var(--button-padding);
         background: #011222;
-
+        a {
+          color: white;
+        }
         nav {
           display: flex;
           gap: 8px;
@@ -88,10 +90,22 @@
         }
       }
 
-      .banner {
-        width: 100%;
-        object-fit: cover;
-        object-position: bottom;
+      #hero {
+        position: relative;
+        .banner {
+          width: 100%;
+          object-fit: cover;
+          object-position: bottom;
+        }
+        .logo {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          height: auto;
+          width: 100%;
+          max-width: 25vw;
+        }
       }
 
 
@@ -124,8 +138,7 @@
   </head>
   <body>
     <header>
-      <h3><span id="head"><img width="48" height="48" src="assets/tournament_logo.jpg" alt="Tournament logo">Ganiga
-          Premier League</span></h3>
+      <a href="/"><h3><span id="head"><img width="48" height="48" src="assets/logo.png" alt="Tournament logo">Ganiga Premier League</span></h3></a>
       <nav>
         <a href="/" class="button">HOME</a>
         <a href="/players" class="button">PLAYERS</a>
@@ -133,6 +146,7 @@
     </header>
     <section id="hero">
       <img height="560" src="assets/hero.jpg" alt="hero banner" class="banner" />
+      <img class="logo" src="assets/logo.png" />
     </section>
     <section class="layout-center">
       <div class="flex-row inner-layout-width">
