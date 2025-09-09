@@ -8,7 +8,7 @@
   }
   h4 {
     max-inline-size: revert;
-    color: black;
+    color: var(--theme-primary-color);
   }
 }
 
@@ -67,7 +67,7 @@
         padding: 8px;
         h6 {
           text-align: center;
-          color: black;
+          color: var(--theme-primary-color);
         }
         p {
           color: #4B5563; 
@@ -95,15 +95,15 @@
   margin-bottom: 50px;
   h2 {
     text-align: center;
-    color: var(--theme-primary-color);
+    color: var(--theme-secondary-color);
     max-inline-size: revert;
     margin-bottom: 50px;
   }
   h4 {
     max-inline-size: revert;
-    color: black;
+    color: var(--theme-primary-color);
     .name {
-      color: var(--theme-primary-color);
+      color: var(--theme-secondary-color);
     }
   }
   > img {
@@ -111,10 +111,6 @@
     height: auto;
     border-radius: 4px;
   }
-}
-
-a.team-logo{
-  color: var(--theme-primary-color);
 }
 
 .flex-column {
@@ -144,7 +140,7 @@ a.team-logo{
 }
 
 .primary-text-color {
-  color: var(--theme-primary-color);
+  color: var(--theme-secondary-color);
 }
 
 .sub-text {
