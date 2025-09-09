@@ -8,6 +8,7 @@
   }
   h5 {
     max-inline-size: revert;
+    text-wrap: revert;
     color: var(--theme-primary-color);
   }
 }
