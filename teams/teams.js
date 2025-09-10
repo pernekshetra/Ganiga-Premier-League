@@ -37,18 +37,17 @@ function renderTeam(inData) {
 
     info.appendChild(nameWithId);
 
-    
-    const playerCategory = document.createElement("h6");
-    playerCategory.textContent = player.category;
-    info.appendChild(playerCategory);
+ const playerParents = document.createElement("h6");
+    playerParents.textContent = player.parents;
+    info.appendChild(playerParents);
 
-    const playerPlace = document.createElement("small");
+     const playerPlace = document.createElement("small");
     playerPlace.textContent = player.place;
     info.appendChild(playerPlace);
 
-    const playerParents = document.createElement("small");
-    playerParents.textContent = player.parents;
-    info.appendChild(playerParents);
+    const playerCategory = document.createElement("small");
+    playerCategory.textContent = player.category;
+    info.appendChild(playerCategory);
 
 
     card.appendChild(info);
