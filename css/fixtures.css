@@ -46,7 +46,11 @@
       justify-content: space-between;
       align-items: center;
       padding: 24px;
-
+      .date-pill {
+        background-color: var(--theme-primary-color);
+        color: var(--theme-secondary-color);
+        border-radius: 16px;
+      }
       .versus {
         border-radius: 50%;
         background-color: orangered;

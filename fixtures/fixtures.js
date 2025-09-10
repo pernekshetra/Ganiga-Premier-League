@@ -29,7 +29,7 @@ function renderFixtures(inData) {
       const matchDeets = document.createElement("div");
       matchDeets.classList.add("details");
       const dateTime = document.createElement("div");
-      dateTime.innerHTML = `${fixture.date}<br />${fixture.time}`;
+      dateTime.innerHTML = `${fixture.date}<br /><p class="date-pill">${fixture.time}</p>`;
       dateTime.style.textAlign = "center";
       matchDeets.appendChild(dateTime);
 
