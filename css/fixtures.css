@@ -51,6 +51,13 @@
         color: var(--theme-secondary-color);
         border-radius: 16px;
       }
+      .teamDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
       .versus {
         border-radius: 50%;
         background-color: orangered;
