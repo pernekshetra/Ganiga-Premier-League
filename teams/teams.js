@@ -37,7 +37,12 @@ function renderTeam(inData) {
 
     info.appendChild(nameWithId);
 
-    const playerPlace = document.createElement("h6");
+    
+    const playerCategory = document.createElement("h6");
+    playerCategory.textContent = player.category;
+    info.appendChild(playerCategory);
+
+    const playerPlace = document.createElement("small");
     playerPlace.textContent = player.place;
     info.appendChild(playerPlace);
 
@@ -45,9 +50,6 @@ function renderTeam(inData) {
     playerParents.textContent = player.parents;
     info.appendChild(playerParents);
 
-    const playerCategory = document.createElement("h6");
-    playerCategory.textContent = player.category;
-    info.appendChild(playerCategory);
 
     card.appendChild(info);
     teamPlayerSection.appendChild(card);
