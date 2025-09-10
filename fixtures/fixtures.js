@@ -33,6 +33,8 @@ function renderFixtures(inData) {
       dateTime.style.textAlign = "center";
       matchDeets.appendChild(dateTime);
 
+      const teamADiv = document.createElement("div");
+      teamADiv.classList.add("teamDiv");
       const teamALogo = document.createElement("img");
       if(fixture.teamA.id) {
         teamALogo.src = `../assets/team_logos/${fixture.teamA.id}.png`;
@@ -40,13 +42,20 @@ function renderFixtures(inData) {
       else {
         teamALogo.src = "../assets/logo.png";
       }
-      matchDeets.appendChild(teamALogo);
+      teamADiv.appendChild(teamALogo);
+
+      const teamAName = document.createElement("small");
+      teamAName.textContent = fixture.teamA.name;
+      teamADiv.appendChild(teamAName);
+      matchDeets.appendChild(teamADiv);
 
       const vs = document.createElement("div");
       vs.textContent = "V/S"
       vs.classList.add("versus");
       matchDeets.appendChild(vs);
 
+      const teamBDiv = document.createElement("div");
+      teamBDiv.classList.add("teamDiv");
       const teamBLogo = document.createElement("img");
       if(fixture.teamB.id) {
         teamBLogo.src = `../assets/team_logos/${fixture.teamB.id}.png`;
@@ -54,9 +63,14 @@ function renderFixtures(inData) {
       else {
         teamBLogo.src = "../assets/logo.png";
       }
-      matchDeets.appendChild(teamBLogo);
-      card.appendChild(matchDeets);
+      teamBDiv.appendChild(teamBLogo);
 
+      const teamBName = document.createElement("small");
+      teamBName.textContent = fixture.teamB.name;
+      teamBDiv.appendChild(teamBName);
+      matchDeets.appendChild(teamBDiv);
+
+      card.appendChild(matchDeets);
       section.appendChild(card);
     }
   }
