@@ -15,7 +15,7 @@
     "date": "26.10.2025",
     "time": "08:05",
     "teamA": { "id": "patalipantherssulya", "name": "Patali Panthers Sulya" },
-    "teamB": { "id": "zeusganigastrikersmangalore", "name": "Zeus Strikers Mangalore" }
+    "teamB": { "id": "zeusganigastrikers", "name": "Zeus Strikers Mangalore" }
   },
   {
     "date": "26.10.2025",
@@ -39,7 +39,7 @@
     "date": "26.10.2025",
     "time": "10:55",
     "teamA": { "id": "vaniyanblastersseethangoli", "name": "Vaniyan Blasters Seethangoli" },
-    "teamB": { "id": "zeusganigastrikersmangalore", "name": "Zeus Strikers Mangalore" }
+    "teamB": { "id": "zeusganigastrikers", "name": "Zeus Strikers Mangalore" }
   },
   {
     "date": "26.10.2025",
@@ -51,7 +51,7 @@
     "date": "26.10.2025",
     "time": "12:15",
     "teamA": { "id": "patalichallengersmangalore", "name": "Patali Challengers Mangalore" },
-    "teamB": { "id": "zeusganigastrikersmangalore", "name": "Zeus Strikers Mangalore" }
+    "teamB": { "id": "zeusganigastrikers", "name": "Zeus Strikers Mangalore" }
   },
   {
     "date": "26.10.2025",
