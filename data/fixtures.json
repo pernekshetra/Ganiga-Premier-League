@@ -1,0 +1,102 @@
+[
+  {
+    "date": "26.10.2025",
+    "time": "06:45",
+    "teamA": { "id": "patalichallengersmangalore", "name": "Patali Challengers Mangalore" },
+    "teamB": { "id": "vaniyanblastarsseethangoli", "name": "Vaniyan Blasters Seethangoli" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "07:25",
+    "teamA": { "id": "vaniyanelevenperla", "name": "Vaniyan Eleven Perla" },
+    "teamB": { "id": "patalihurricaneskuddupadavu", "name": "Patali Hurricanes Kuddupadavu" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "08:05",
+    "teamA": { "id": "patalipantherssulya", "name": "Patali Panthers Sulya" },
+    "teamB": { "id": "zeusstrikersmangalore", "name": "Zeus Strikers Mangalore" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "08:45",
+    "teamA": { "id": "ganigatitansvitla", "name": "Ganiga Titans Vitla" },
+    "teamB": { "id": "vaniyanwarriorsputtur", "name": "Vaniyan Warriors Puttur" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "09:25",
+    "teamA": { "id": "patalichallengersmangalore", "name": "Patali Challengers Mangalore" },
+    "teamB": { "id": "patalipantherssulya", "name": "Patali Panthers Sulya" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "10:15",
+    "teamA": { "id": "vaniyanelevenperla", "name": "Vaniyan Eleven Perla" },
+    "teamB": { "id": "ganigatitansvitla", "name": "Ganiga Titans Vitla" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "10:55",
+    "teamA": { "id": "vaniyanblastarsseethangoli", "name": "Vaniyan Blasters Seethangoli" },
+    "teamB": { "id": "zeusstrikersmangalore", "name": "Zeus Strikers Mangalore" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "11:35",
+    "teamA": { "id": "patalihurricaneskuddupadavu", "name": "Patali Hurricanes Kuddupadavu" },
+    "teamB": { "id": "vaniyanwarriorsputtur", "name": "Vaniyan Warriors Puttur" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "12:15",
+    "teamA": { "id": "patalichallengersmangalore", "name": "Patali Challengers Mangalore" },
+    "teamB": { "id": "zeusstrikersmangalore", "name": "Zeus Strikers Mangalore" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "12:55",
+    "teamA": { "id": "vaniyanelevenperla", "name": "Vaniyan Eleven Perla" },
+    "teamB": { "id": "vaniyanwarriorsputtur", "name": "Vaniyan Warriors Puttur" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "13:15",
+    "teamA": { "id": "vaniyanblastarsseethangoli", "name": "Vaniyan Blasters Seethangoli" },
+    "teamB": { "id": "patalipantherssulya", "name": "Patali Panthers Sulya" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "14:15",
+    "teamA": { "id": "patalihurricaneskuddupadavu", "name": "Patali Hurricanes Kuddupadavu" },
+    "teamB": { "id": "ganigatitansvitla", "name": "Ganiga Titans Vittla" }
+  },
+  {
+    "date": "26.10.2025",
+    "time": "15:05",
+    "teamA": { "id": null, "name": "Pool A Topper" },
+    "teamB": { "id": null, "name": "Pool B Topper" },
+    "type": "Qualifier 1"
+  },
+  {
+    "date": "26.10.2025",
+    "time": "15:45",
+    "teamA": { "id": null, "name": "Pool A 2nd" },
+    "teamB": { "id": null, "name": "Pool B 2nd" },
+    "type": "Eliminator"
+  },
+  {
+    "date": "26.10.2025",
+    "time": "16:25",
+    "teamA": { "id": null, "name": "Winner of Eliminator" },
+    "teamB": { "id": null, "name": "Qualifier 1 Loser" },
+    "type": "Qualifier 2"
+  },
+  {
+    "date": "26.10.2025",
+    "time": "17:15",
+    "teamA": { "id": null, "name": "Winner of Qualifier 1" },
+    "teamB": { "id": null, "name": "Winner of Qualifier 2" },
+    "type": "Final"
+  }
+]
