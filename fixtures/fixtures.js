@@ -28,9 +28,10 @@ function renderFixtures(inData) {
 
       const matchDeets = document.createElement("div");
       matchDeets.classList.add("details");
-      const tournamentLogo = document.createElement("img");
-      tournamentLogo.src = "../assets/logo.png";
-      matchDeets.appendChild(tournamentLogo);
+      const dateTime = document.createElement("div");
+      dateTime.innerHTML = `${fixture.date}<br />${fixture.time}`;
+      dateTime.style.textAlign = "center";
+      matchDeets.appendChild(dateTime);
 
       const teamALogo = document.createElement("img");
       if(fixture.teamA.id) {
