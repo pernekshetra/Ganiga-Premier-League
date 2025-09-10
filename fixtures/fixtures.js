@@ -1,3 +1,10 @@
+function renderTeamsPool(inTeams) {
+  const poolA = inTeams.filter(team => team.pool == "A");
+  const poolB = inTeams.filter(team => team.pool == "B");
+  renderTeamsMetaData(poolA, "poolA");
+  renderTeamsMetaData(poolB, "poolB");
+}
+
 function renderFixtures(inData) {
   const section = document.getElementById("fixtures");
   if(section) {

@@ -10,6 +10,7 @@
     <link href="https://fonts.bunny.net/css?family=inter:400" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/open-props">
     <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
+    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/fixtures.css">
     <meta property="og:type" content="website">
     <meta property="og:url" content="gpl.rakshithnettar.com">
@@ -157,6 +158,15 @@
       <h1>FIXTURES</h1>
     </section>
     <main class="parent">
+      <section class="full-width teams pad-50">
+        <div id="teams">
+          <h2>Pool A</h2>
+          <div id="poolA"></div>
+          <h2>Pool B</h2>
+          <div id="poolB"></div>
+        </div>
+        </div>
+      </section>
       <section id="fixtures"></section>
     </main>
     <footer>
@@ -164,10 +174,14 @@
       <em>Built with ♡ by <span style="color: red;">ಅರಿವು.GG</span></em><br />(Vaniyan Ganiga Tech Team)
       </p>
     </footer>
-    <script src="fixtures.js"></script>
+    <script src="../utils/assets-handler.js"></script>
+    <script src="../home.js"></script>
+    <script src="../fixtures/fixtures.js"></script>
     <script type="module">
-      import data from '../data/fixtures.json' with { type: 'json' };
-      renderFixtures(data);
+      import teams from "../data/teams.json" with { type: "json" }; 
+      import fixtures from '../data/fixtures.json' with { type: 'json' };
+      renderTeamsPool(teams);
+      renderFixtures(fixtures);
     </script>
   </body>
 </html>

@@ -1,3 +1,17 @@
+.teams {
+  #teams {
+    display: flex;
+    flex-direction: column;
+    #poolA, #poolB {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
 #fixtures {
   display: flex;
   flex-wrap: wrap;
