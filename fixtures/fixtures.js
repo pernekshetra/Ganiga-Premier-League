@@ -26,7 +26,6 @@ function renderFixtures(inData) {
       matchDeets.appendChild(tournamentLogo);
 
       const teamALogo = document.createElement("img");
-      console.log(fixture.teamA, fixture.teamB);
       if(fixture.teamA.id) {
         teamALogo.src = `../assets/team_logos/${fixture.teamA.id}.png`;
       }
