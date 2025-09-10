@@ -41,11 +41,11 @@ function renderTeam(inData) {
     playerPlace.textContent = player.place;
     info.appendChild(playerPlace);
 
-    const playerParents = document.createElement("h6");
+    const playerParents = document.createElement("small");
     playerParents.textContent = player.parents;
     info.appendChild(playerParents);
 
-    const playerCategory = document.createElement("small");
+    const playerCategory = document.createElement("h6");
     playerCategory.textContent = player.category;
     info.appendChild(playerCategory);
 
