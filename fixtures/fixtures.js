@@ -9,7 +9,7 @@ function renderFixtures(inData) {
       const head = document.createElement("div");
       head.classList.add("head");
       const title = document.createElement("h5");
-      title.textContent = `Match ${index}`;
+      title.textContent = `Match ${Number(index) + 1}`;
       head.appendChild(title);
 
       const typeElem = document.createElement("h6");
