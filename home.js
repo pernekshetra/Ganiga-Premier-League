@@ -1,5 +1,5 @@
-function renderTeamsMetaData(inTeams) {
-  const section = document.getElementById("teams");
+function renderTeamsMetaData(inTeams, inId) {
+  const section = document.getElementById(inId);
   if(section) {
     for(const team of inTeams) {
       const card = document.createElement("div");
