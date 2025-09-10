@@ -1,3 +1,15 @@
+function convertTo12Hour(time24) {
+  const [hourStr, minute] = time24.split(":");
+  let hour = parseInt(hourStr, 10);
+  const ampm = hour >= 12 ? "PM" : "AM";
+
+  hour = hour % 12;
+  if(hour === 0) {
+    hour = 12; // midnight or noon case
+  }
+  return `${hour}:${minute} ${ampm}`;
+}
+
 function renderTeamsPool(inTeams) {
   const poolA = inTeams.filter(team => team.pool == "A");
   const poolB = inTeams.filter(team => team.pool == "B");
@@ -24,14 +36,15 @@ function renderFixtures(inData) {
         typeElem.textContent = fixture.type;
         head.appendChild(typeElem);
       }
+      const dateTime = document.createElement("div");
+      dateTime.innerHTML = `${fixture.date}<span class="date-pill">${convertTo12Hour(fixture.time)}</span>`;
+      dateTime.style.textAlign = "center";
+      head.appendChild(dateTime);
+
       card.appendChild(head);
 
       const matchDeets = document.createElement("div");
       matchDeets.classList.add("details");
-      const dateTime = document.createElement("div");
-      dateTime.innerHTML = `${fixture.date}<br /><p class="date-pill">${fixture.time}</p>`;
-      dateTime.style.textAlign = "center";
-      matchDeets.appendChild(dateTime);
 
       const teamADiv = document.createElement("div");
       teamADiv.classList.add("teamDiv");

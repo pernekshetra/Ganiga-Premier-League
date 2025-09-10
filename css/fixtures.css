@@ -38,7 +38,15 @@
       border-top-right-radius: 12px;
       padding: 12px;
       display: flex;
+      justify-content: space-between;
       gap: 12px;
+      .date-pill {
+        margin-left: 8px;
+        background-color: var(--theme-secondary-color);
+        color: var(--theme-primary-color);
+        border-radius: 10px;
+        padding: 4px;
+      }
     }
     .details {
       display: flex;
@@ -46,11 +54,6 @@
       justify-content: space-between;
       align-items: center;
       padding: 24px;
-      .date-pill {
-        background-color: var(--theme-primary-color);
-        color: var(--theme-secondary-color);
-        border-radius: 16px;
-      }
       .teamDiv {
         display: flex;
         justify-content: center;
