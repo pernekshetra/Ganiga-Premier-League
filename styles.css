@@ -1,7 +1,7 @@
 :root {
-  --content-font: 'Akshar', sans-serif;
-  --theme-primary-color: var(--yellow-8);
-  --theme-secondary-color: var(--blue-12);
+  --content-font: 'Inter', sans-serif;
+  --theme-primary-color: #011222;
+  --theme-secondary-color: #E9BA24;
   --button-padding: 12px;
 }
 
@@ -21,8 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--button-padding);
-  background: #0D375E;
-  background: linear-gradient(45deg, rgba(13, 55, 94, 1) 60%, rgba(240, 140, 0, 1) 85%);
+  background: var(--theme-primary-color);
   nav {
     display: flex;
     gap: 8px;
@@ -36,7 +35,7 @@ h3 > #head {
   gap: 12px;
 }
 
-button.button {
+a.button {
   border: none;
   font-family: inherit;
   padding: 0;
@@ -44,8 +43,8 @@ button.button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--theme-secondary-color);
-  color: var(--theme-primary-color);
+  background-color: var(--theme-primary-color);
+  color: var(--theme-secondary-color);
   border-radius: 8px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
   padding: var(--button-padding);

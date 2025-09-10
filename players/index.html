@@ -27,24 +27,19 @@
   <meta name="twitter:image" content="https://ganigapremierleague.com/meta.jpg">
   <style>
   :root {
-    --content-font: 'Akshar', sans-serif;
-    --theme-primary-color: #DBA81F;
-    --theme-secondary-color: #0B1D2F;
+    --content-font: 'Inter', sans-serif;
+    --theme-primary-color: #011222;
+    --theme-secondary-color: #E9BA24;
     --button-padding: 12px;
-    --text-color: white;
   }
   
-  :where(html) {
-    color: var(--text-color);
-  }
-
   * {
     box-sizing: border-box;
   }
 
   body {
    font-family: var(--content-font);
-   background-color: var(--theme-secondary-color);
+   background-color: white;
    margin: 0;
   }
 
@@ -54,8 +49,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--button-padding);
-    background: #0D375E;
-    background: linear-gradient(45deg, var(--theme-secondary-color) 60%, var(--theme-primary-color) 85%);
+    background: var(--theme-primary-color);
     a {
       color: white;
     }
@@ -80,8 +74,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--theme-secondary-color);
-    color: var(--theme-primary-color);
+    background-color: var(--theme-primary-color);
+    color: var(--theme-secondary-color);
     border-radius: 8px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
     padding: var(--button-padding);
@@ -101,11 +95,19 @@
   .parent > * {
     grid-column: 2;
   }
+
+  .full-width {
+    grid-column: 1 / -1;
+    width: 100%;
+    justify-self: stretch;
+  }
   
   footer {
     display: flex;
     justify-content: center;
     padding: 30px;
+    background-color: var(--theme-primary-color);
+    color: white;
   }
   </style>
   <!-- google tag (gtag.js) -->
@@ -129,8 +131,7 @@
   </header>
   <main class="parent">
     <h2>PLAYERS</h2>
-    <section id="players">
-    </section>
+    <section class="full-width" id="players"></section>
   </main>
   <footer>
     <p>

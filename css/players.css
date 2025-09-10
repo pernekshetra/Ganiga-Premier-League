@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 30px;
   margin-bottom: 100px;
 }
 
@@ -23,12 +23,13 @@
 }
 
 .card {
-  background: var(--theme-secondary-color);
-  border-radius: 4px;
+  color: var(--theme-primary-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  width: 300px;
+  width: 347px;
+  height: 418px;
   overflow: hidden;
   transition: transform 0.2s ease;
+  border-radius: 16px;
 }
 
 .card:hover {
@@ -48,6 +49,7 @@
   justify-content: center;
   align-items: center;
   padding: 16px;
+  height: 115px;
   & > .nameWithId {
     display: flex;
     align-items: center;
