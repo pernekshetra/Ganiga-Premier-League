@@ -1,0 +1,50 @@
+[
+  {
+    "id": "patalichallengersmangalore",
+    "name": "Patali Challengers Mangalore",
+    "owner": "Hareesh, Mangalore",
+    "logo": "assets/team_logos/patalichallengersmangalore.png"
+  },
+  {
+    "id": "vaniyanwarriorsputtur",
+    "name": "Vaniyan Warriors Puttur",
+    "owner": "Ramesh Bakithimar",
+    "logo": "assets/team_logos/vaniyanwarriorsputtur.png"
+  },
+  {
+    "id": "zeusstrikersmangalore",
+    "name": "Zeus Strikers Mangalore",
+    "owner": "Sreenivas N & Rajesh N",
+    "logo": "assets/team_logos/zeusstrikersmangalore.png"
+  },
+  {
+    "id": "ganigatitansvitla",
+    "name": "Ganiga Titans Vitla",
+    "owner": "Udaya D",
+    "logo": "assets/team_logos/ganigatitansvitla.png"
+  },
+  {
+    "id": "patalipantherssulya",
+    "name": "Patali Panthers Sulya",
+    "owner": "Chandrashekhara Uddanthadka",
+    "logo": "assets/team_logos/patalipantherssulya.png"
+  },
+  {
+    "id": "vaniyanelevenperla",
+    "name": "Vaniyan Eleven Perla",
+    "owner": "Sunil Kumar V",
+    "logo": "assets/team_logos/vaniyanelevenperla.png"
+  },
+  {
+    "id": "vaniyanblastersseethangoli",
+    "name": "Vaniyan Blasters Seethangoli",
+    "owner": "Gururaj Cs & Radeesh Kumar M",
+    "logo": "assets/team_logos/vaniyanblastersseethangoli.png"
+  },
+  {
+    "id": "patalihurricaneskuddupadavu",
+    "name": "Patali Hurricanes Kuddupadavu",
+    "owner": "Dinesh Ch",
+    "logo": "assets/team_logos/patalihurricaneskuddupadavu.png"
+  }
+]

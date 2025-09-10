@@ -1,10 +1,17 @@
+.pad-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 #about {
-  margin-top: 100px;
   h2 {
     text-align: center;
     color: var(--theme-primary-color);
     max-inline-size: revert;
-    margin-bottom: 25px;
   }
   h5 {
     max-inline-size: revert;
@@ -13,27 +20,26 @@
   }
 }
 
-#teams, #organizers {
+h2 {
+  text-align: center;
+  max-inline-size: revert;
+}
+
+.teams, .organizers {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  gap: 20px;
   height: auto;
-  margin: 100px auto;
   color: var(--theme-primary-color);
   background-color: white;
-  > h2 {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  > .teams, .organizers {
+  #teams, #organizers {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 30px;
-    > .card {
+    .card {
       width: 284px;
       height: 220px;
       background-color: white;
@@ -81,12 +87,10 @@
   }
 }
 
-#organizers {
-  margin-top: 0px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.organizers {
   background-color: #EBF5FF;
-  .organizers {
+  flex-direction: column;
+  #organizers {
     .card {
       img {
         border-radius: 50%;
@@ -106,7 +110,6 @@
     text-align: center;
     color: var(--theme-secondary-color);
     max-inline-size: revert;
-    margin-bottom: 50px;
   }
   h6 {
     max-inline-size: revert;
