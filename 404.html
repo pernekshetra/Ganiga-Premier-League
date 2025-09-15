@@ -121,6 +121,8 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        gap: 30px;
+        padding: 50px;
         div {
           display: flex;
           flex-direction: column;
@@ -130,12 +132,14 @@
             max-inline-size: unset;
           }
           a {
-            text-align: center;
             width: 180px;
             border: 1px solid var(--theme-primary-color);
             border-radius: 8px;
             padding: 12px;
             color: var(--theme-primary-color);
+            display: flex;
+            align-self: center;
+            justify-content: center;
           }
         }
       }
