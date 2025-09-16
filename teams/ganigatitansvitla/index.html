@@ -110,10 +110,10 @@
           <div class="footer-column">
             <h3>Tournament</h3>
             <ul class="footer-links">
-              <li><a href="#">Teams</a></li>
-              <li><a href="/fixtures">Schedule</a></li>
+              <li><a href="../../index.html#teams">Teams</a></li>
+              <li><a href="../../fixtures/">Schedule</a></li>
               <li><a href="#">Points Table</a></li>
-              <li><a href="#">Players</a></li>
+              <li><a href="../../players/index.html">Players</a></li>
               <li><a href="#">Statistics</a></li>
             </ul>
           </div>
@@ -135,21 +135,24 @@
               </li>
               <li>
                 <img src="../../assets/phone.svg" alt="phone">
-                <span>+91 9449567660</span>
+                <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
               </li>
               <li>
                 <img src="../../assets/mail.svg" alt="email">
-                <span>pernekshetra@gmail.com</span>
+                <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
               </li>
             </ul>
          </div>
         </div>
       </section>
       <p class="bottom-text">
-        &copy; 2025 Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG. 
+        &copy; <span id="date"></span> Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG. 
       </p>
     </footer>
 
+    <script>
+    document.getElementById("date").innerText = new Date().getFullYear().toString();
+    </script>
     <script src="../../../utils/assets-handler.js"></script>
     <script src="../../teams/teams.js"></script>
     <script type="module">
