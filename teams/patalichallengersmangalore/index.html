@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../css/teams.css">
     <link rel="stylesheet" href="../../css/players.css">
+    <link rel="stylesheet" href="../../css/footer.css">
     <meta property="og:type" content="website">
     <meta property="og:url" content="gpl.rakshithnettar.com">
     <meta property="og:title" content="Ganiga Premier League">
@@ -65,6 +66,92 @@
         <div id="team-players-table"> </div>
       </section>
     </main>
+    <footer class="footer-outer-container">
+      <section class="hero-section">
+        <h1 class="hero-title">Experience The Thrill</h1>
+        <p class="hero-subtitle">
+          Don't miss a single moment of cricket action. Get live scores, 
+          match highlights, and exclusive content.
+        </p>
+        <a href="/fixtures" class="cta-button">
+          <img src="../../assets/playbutton.svg" alt="play">
+            Check Fixtures
+        </a>
+      </section>
+      <section class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <div class="brand-logo">
+              <img width="48" height="100%" src="../../assets/logo.png" alt="Tournament logo">
+              <div>
+                <div class="brand-title">GPL</div>
+                <div class="brand-subtitle">Ganiga Premier League</div>
+              </div>
+            </div>
+            <p class="brand-description">
+              Where Unity Plays First
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="../../assets/facebook.svg" alt="facebook">
+              </a>
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="../../assets/twitter.svg" alt="X">
+              </a>
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="../../assets/instagram.svg" alt="instagram">
+              </a>
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="../../assets/youtube.svg" alt="youtube">
+              </a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Tournament</h3>
+            <ul class="footer-links">
+              <li><a href="../../index.html#teams-section">Teams</a></li>
+              <li><a href="../../fixtures/index.html">Schedule</a></li>
+              <li><a href="#">Points Table</a></li>
+              <li><a href="../../players/index.html">Players</a></li>
+              <li><a href="#">Statistics</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Sponsors</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <ul class="contact-info">
+              <li>
+                <img src="../../assets/location.svg" alt="location">
+                <span>Philomena Ground, Puttur</span>
+              </li>
+              <li>
+                <img src="../../assets/phone.svg" alt="phone">
+                <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
+              </li>
+              <li>
+                <img src="../../assets/mail.svg" alt="email">
+                <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
+              </li>
+            </ul>
+         </div>
+        </div>
+      </section>
+      <p class="bottom-text">
+        &copy; <span id="date"></span> Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG. 
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById("date").innerText = new Date().getFullYear().toString();
+    </script>
     <script src="../../../utils/assets-handler.js"></script>
     <script src="../../teams/teams.js"></script>
     <script type="module">
