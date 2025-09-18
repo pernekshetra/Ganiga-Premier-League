@@ -21,6 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: var(--button-padding);
+  background: var(--theme-primary-color);
   a {
     color: white;
   }
