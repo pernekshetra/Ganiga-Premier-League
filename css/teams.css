@@ -95,7 +95,6 @@ a.button {
   padding: 20px;
   div {
     color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
