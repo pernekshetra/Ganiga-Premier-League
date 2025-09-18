@@ -9,7 +9,7 @@ function renderTeamsMetaData(inTeams, inId) {
       a.href = `./teams/${team.id}`;
 
       const teamLogo = document.createElement("img");
-      teamLogo.src = `assets/team_logos/${team.id}.png`;
+      teamLogo.src = `/assets/team_logos/${team.id}.png`;
       a.appendChild(teamLogo);
 
       const textDiv = document.createElement("div");

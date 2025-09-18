@@ -50,10 +50,10 @@ function renderFixtures(inData) {
       teamADiv.classList.add("teamDiv");
       const teamALogo = document.createElement("img");
       if(fixture.teamA.id) {
-        teamALogo.src = `../assets/team_logos/${fixture.teamA.id}.png`;
+        teamALogo.src = `/assets/team_logos/${fixture.teamA.id}.png`;
       }
       else {
-        teamALogo.src = "../assets/logo.png";
+        teamALogo.src = "/assets/logo.png";
       }
       teamADiv.appendChild(teamALogo);
 
@@ -71,10 +71,10 @@ function renderFixtures(inData) {
       teamBDiv.classList.add("teamDiv");
       const teamBLogo = document.createElement("img");
       if(fixture.teamB.id) {
-        teamBLogo.src = `../assets/team_logos/${fixture.teamB.id}.png`;
+        teamBLogo.src = `/assets/team_logos/${fixture.teamB.id}.png`;
       }
       else {
-        teamBLogo.src = "../assets/logo.png";
+        teamBLogo.src = "/assets/logo.png";
       }
       teamBDiv.appendChild(teamBLogo);
 
