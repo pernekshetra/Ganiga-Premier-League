@@ -10,9 +10,9 @@
     <link href="https://fonts.bunny.net/css?family=inter:400" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/open-props">
     <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
-    <link rel="stylesheet" href="../../css/teams.css">
-    <link rel="stylesheet" href="../../css/players.css">
-    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="/css/teams.css">
+    <link rel="stylesheet" href="/css/players.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <meta property="og:type" content="website">
     <meta property="og:type" content="website">
     <meta property="og:url" content="gpl.rakshithnettar.com">
@@ -42,7 +42,7 @@
     <header>
       <a href="/">
         <h3>
-          <span id="head"><img width="48" height="48" src="../../assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span>
+          <span id="head"><img width="48" height="48" src="/assets/tournament_logo.jpg" alt="Tournament logo" >Ganiga Premier League</span>
         </h3>
       </a>
       <nav>
@@ -53,11 +53,11 @@
     <main class="parent">
       <section class="team-header">
         <div class="logo-div">
-          <img src="../../assets/team_logos/patalihurricaneskuddupadavu.png" alt="Patali Hurricanes Kuddupadavu logo" class="logo">
+          <img src="/assets/team_logos/patalihurricaneskuddupadavu.png" alt="Patali Hurricanes Kuddupadavu logo" class="logo">
           <h4>Patali Hurricanes Kuddupadavu</h4>
         </div>
         <div>
-          <img src="../../assets/owners/patalihurricanes.png" alt="Team owner" />
+          <img src="/assets/owners/patalihurricanes.png" alt="Team owner" />
           <h4>Dinesh CH</h4>
         </div>
       </section>
@@ -74,7 +74,7 @@
           match highlights, and exclusive content.
         </p>
         <a href="/fixtures" class="cta-button">
-          <img src="../../assets/playbutton.svg" alt="play">
+          <img src="/assets/playbutton.svg" alt="play">
             Check Fixtures
         </a>
       </section>
@@ -82,7 +82,7 @@
         <div class="footer-container">
           <div class="footer-brand">
             <div class="brand-logo">
-              <img width="48" height="100%" src="../../assets/logo.png" alt="Tournament logo">
+              <img width="48" height="100%" src="/assets/logo.png" alt="Tournament logo">
               <div>
                 <div class="brand-title">GPL</div>
                 <div class="brand-subtitle">Ganiga Premier League</div>
@@ -93,16 +93,16 @@
             </p>
             <div class="social-links">
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../../assets/facebook.svg" alt="facebook">
+                <img width="20" height="20" src="/assets/facebook.svg" alt="facebook">
               </a>
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../../assets/twitter.svg" alt="X">
+                <img width="20" height="20" src="/assets/twitter.svg" alt="X">
               </a>
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../../assets/instagram.svg" alt="instagram">
+                <img width="20" height="20" src="/assets/instagram.svg" alt="instagram">
               </a>
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../../assets/youtube.svg" alt="youtube">
+                <img width="20" height="20" src="/assets/youtube.svg" alt="youtube">
               </a>
             </div>
           </div>
@@ -129,15 +129,15 @@
             <h3>Contact Info</h3>
             <ul class="contact-info">
               <li>
-                <img src="../../assets/location.svg" alt="location">
+                <img src="/assets/location.svg" alt="location">
                 <span>Philomena Ground, Puttur</span>
               </li>
               <li>
-                <img src="../../assets/phone.svg" alt="phone">
+                <img src="/assets/phone.svg" alt="phone">
                 <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
               </li>
               <li>
-                <img src="../../assets/mail.svg" alt="email">
+                <img src="/assets/mail.svg" alt="email">
                 <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
               </li>
             </ul>
@@ -153,9 +153,9 @@
       document.getElementById("date").innerText = new Date().getFullYear().toString();
     </script>
     <script src="/utils/assets-handler.js"></script>
-    <script src="../../teams/teams.js"></script>
+    <script src="/teams/teams.js"></script>
     <script type="module">
-      import data from '../../data/players.json' with { type: 'json' };
+      import data from '/data/players.json' with { type: 'json' };
       renderTeam(data);
     </script>
   </body>
