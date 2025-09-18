@@ -1,229 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#3C4C5C">
-  <title>Players - GANIGA PREMIER LEAGUE</title>
-  <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☄️</text></svg>" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.bunny.net">
-  <link href="https://fonts.bunny.net/css?family=inter:400" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/open-props">
-  <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
-  <link rel="stylesheet" href="../css/players.css">
-  <link rel="stylesheet" href="../css/footer.css">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="gpl.rakshithnettar.com">
-  <meta property="og:title" content="Ganiga Premier League">
-  <meta property="og:image:secure_url" content="https://ganigapremierleague.com/meta.jpg">
-  <meta property="og:description" content="Website for all things GPL">
-  <meta property="og:site_name" content="Ganiga Premier League">
-  <meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="website for all things GPL">
-  <meta name="twitter:site" content="@rakshithbellare">
-  <meta name="twitter:creator" content="@rakshithbellare">
-  <meta name="twitter:url" content="gpl.rakshithnettar.com">
-  <meta name="twitter:title" content="Ganiga Premier League">
-  <meta name="twitter:description" content="website for all things GPL">
-  <meta name="twitter:image" content="https://ganigapremierleague.com/meta.jpg">
-  <style>
-    :root {
-      --content-font: 'Inter', sans-serif;
-      --theme-primary-color: #011222;
-      --theme-secondary-color: #E9BA24;
-      --button-padding: 12px;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#3C4C5C">
+    <title>Players - GANIGA PREMIER LEAGUE</title>
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☄️</text></svg>" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/open-props">
+    <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+    <link rel="stylesheet" href="/css/players.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="gpl.rakshithnettar.com">
+    <meta property="og:title" content="Ganiga Premier League">
+    <meta property="og:image:secure_url" content="https://ganigapremierleague.com/meta.jpg">
+    <meta property="og:description" content="Website for all things GPL">
+    <meta property="og:site_name" content="Ganiga Premier League">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="website for all things GPL">
+    <meta name="twitter:site" content="@rakshithbellare">
+    <meta name="twitter:creator" content="@rakshithbellare">
+    <meta name="twitter:url" content="gpl.rakshithnettar.com">
+    <meta name="twitter:title" content="Ganiga Premier League">
+    <meta name="twitter:description" content="website for all things GPL">
+    <meta name="twitter:image" content="https://ganigapremierleague.com/meta.jpg">
+    <style>
+      :root {
+        --content-font: 'Inter', sans-serif;
+        --theme-primary-color: #011222;
+        --theme-secondary-color: #E9BA24;
+        --button-padding: 12px;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
 
-    * {
-      box-sizing: border-box;
-    }
+      body {
+        font-family: var(--content-font);
+        background-color: white;
+        margin: 0;
+      }
 
-    body {
-      font-family: var(--content-font);
-      background-color: white;
-      margin: 0;
-    }
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--button-padding);
+        background: var(--theme-primary-color);
+        a {
+          color: white;
+        }
+        nav {
+          display: flex;
+          gap: 8px;
+        }
+      }
 
-    header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      padding: var(--button-padding);
-      background: var(--theme-primary-color);
-      a {
+      h3 > #head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        font-size: clamp(1.3rem, 2.5vw, 2.5rem);
+      }
+
+      a.button {
+        border: none;
+        font-family: inherit;
+        padding: 0;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--theme-primary-color);
+        color: var(--theme-secondary-color);
+        border-radius: 8px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+        padding: var(--button-padding);
+
+        @media screen and (-ms-high-contrast: active) {
+          border: 2px solid currentcolor;
+        }
+      }
+
+      .parent {
+        display: grid;
+        grid-template-columns: 1fr min(120ch, calc(100% - 16px)) 1fr;
+        grid-column-gap: 8px;
+        place-items: center;
+      }
+
+      .parent > * {
+        grid-column: 2;
+      }
+
+      .full-width {
+        grid-column: 1 / -1;
+        width: 100%;
+        justify-self: stretch;
+      }
+
+      footer {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        background-color: var(--theme-primary-color);
         color: white;
       }
-      nav {
-        display: flex;
-        gap: 8px;
-      }
-    }
+    </style>
+    <!-- google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=g-kk7b31frdz"></script>
+    <script>
+      window.datalayer = window.datalayer || [];
+      function gtag(){datalayer.push(arguments);}
+      gtag('js', new Date());
 
-  h3 > #head {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 12px;
-      font-size: clamp(1.3rem, 2.5vw, 2.5rem);
-    }
-
-    a.button {
-      border: none;
-      font-family: inherit;
-      padding: 0;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      background-color: var(--theme-primary-color);
-      color: var(--theme-secondary-color);
-      border-radius: 8px;
-      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
-      padding: var(--button-padding);
-
-      @media screen and (-ms-high-contrast: active) {
-        border: 2px solid currentcolor;
-      }
-    }
-
-    .parent {
-      display: grid;
-      grid-template-columns: 1fr min(120ch, calc(100% - 16px)) 1fr;
-      grid-column-gap: 8px;
-      place-items: center;
-    }
-
-  .parent > * {
-      grid-column: 2;
-    }
-
-    .full-width {
-      grid-column: 1 / -1;
-      width: 100%;
-      justify-self: stretch;
-    }
-
-    footer {
-      display: flex;
-      justify-content: center;
-      padding: 30px;
-      background-color: var(--theme-primary-color);
-      color: white;
-    }
-  </style>
-  <!-- google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=g-kk7b31frdz"></script>
-  <script>
-    window.datalayer = window.datalayer || [];
-    function gtag(){datalayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'g-kk7b31frdz');
-  </script>
-</head>
-<body>
-  <header>
-    <a href="/"><h3><span id="head"><img width="48" height="48" src="../../assets/logo.png" alt="Tournament logo">Ganiga Premier League</span></h3></a>
-    <nav>
-      <a href="/" class="button">HOME</a>
-      <a href="/fixtures" class="button">FIXTURES</a>
-    </nav>
-  </header>
-  <main class="parent">
-    <h2>PLAYERS</h2>
-    <section class="full-width" id="players"></section>
-  </main>
-  <footer class="footer-outer-container">
-    <section class="hero-section">
-      <h1 class="hero-title">Experience The Thrill</h1>
-      <p class="hero-subtitle">
+      gtag('config', 'g-kk7b31frdz');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="/"><h3><span id="head"><img width="48" height="48" src="/assets/logo.png" alt="Tournament logo">Ganiga Premier League</span></h3></a>
+      <nav>
+        <a href="/" class="button">HOME</a>
+        <a href="/fixtures" class="button">FIXTURES</a>
+      </nav>
+    </header>
+    <main class="parent">
+      <h2>PLAYERS</h2>
+      <section class="full-width" id="players"></section>
+    </main>
+    <footer class="footer-outer-container">
+      <section class="hero-section">
+        <h1 class="hero-title">Experience The Thrill</h1>
+        <p class="hero-subtitle">
         Don't miss a single moment of cricket action. Get live scores,
         match highlights, and exclusive content.
-      </p>
-      <a href="#" class="cta-button">
-        <img src="../assets/playbutton.svg" alt="play">
-        Check Fixtures
-      </a>
-    </section>
-    <section class="footer">
-      <div class="footer-container">
-        <div class="footer-brand">
-          <div class="brand-logo">
-            <img width="48" height="100%" src="../assets/logo.png" alt="Tournament logo">
-            <div>
-              <div class="brand-title">GPL</div>
-              <div class="brand-subtitle">Ganiga Premier League</div>
+        </p>
+        <a href="#" class="cta-button">
+          <img src="/assets/playbutton.svg" alt="play">
+          Check Fixtures
+        </a>
+      </section>
+      <section class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <div class="brand-logo">
+              <img width="48" height="100%" src="/assets/logo.png" alt="Tournament logo">
+              <div>
+                <div class="brand-title">GPL</div>
+                <div class="brand-subtitle">Ganiga Premier League</div>
+              </div>
+            </div>
+            <p class="brand-description">
+            Where Unity Plays First
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="/assets/facebook.svg" alt="facebook">
+              </a>
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="/assets/twitter.svg" alt="X">
+              </a>
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="/assets/instagram.svg" alt="instagram">
+              </a>
+              <a href="#" class="social-link">
+                <img width="20" height="20" src="/assets/youtube.svg" alt="youtube">
+              </a>
             </div>
           </div>
-          <p class="brand-description">
-            Where Unity Plays First
-          </p>
-          <div class="social-links">
-            <a href="#" class="social-link">
-              <img width="20" height="20" src="../assets/facebook.svg" alt="facebook">
-            </a>
-            <a href="#" class="social-link">
-              <img width="20" height="20" src="../assets/twitter.svg" alt="X">
-            </a>
-            <a href="#" class="social-link">
-              <img width="20" height="20" src="../assets/instagram.svg" alt="instagram">
-            </a>
-            <a href="#" class="social-link">
-              <img width="20" height="20" src="../assets/youtube.svg" alt="youtube">
-            </a>
+          <div class="footer-column">
+            <h3>Tournament</h3>
+            <ul class="footer-links">
+              <li><a href="/#teams-section">Teams</a></li>
+              <li><a href="/fixtures">Schedule</a></li>
+              <li><a href="#">Points Table</a></li>
+              <li><a href="/players">Players</a></li>
+              <li><a href="#">Statistics</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Sponsors</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <ul class="contact-info">
+              <li>
+                <img src="/assets/location.svg" alt="location">
+                <span>Philomena Ground, Puttur</span>
+              </li>
+              <li>
+                <img src="/assets/phone.svg" alt="phone">
+                <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
+              </li>
+              <li>
+                <img src="/assets/mail.svg" alt="email">
+                <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="footer-column">
-          <h3>Tournament</h3>
-          <ul class="footer-links">
-            <li><a href="/#teams-section">Teams</a></li>
-            <li><a href="/fixtures">Schedule</a></li>
-            <li><a href="#">Points Table</a></li>
-            <li><a href="/players">Players</a></li>
-            <li><a href="#">Statistics</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="#">News</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">Sponsors</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h3>Contact Info</h3>
-          <ul class="contact-info">
-            <li>
-              <img src="../assets/location.svg" alt="location">
-              <span>Philomena Ground, Puttur</span>
-            </li>
-            <li>
-              <img src="../assets/phone.svg" alt="phone">
-              <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
-            </li>
-            <li>
-              <img src="../assets/mail.svg" alt="email">
-              <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <p class="bottom-text">
+      </section>
+      <p class="bottom-text">
       &copy; <span id="date"></span> Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG.
-    </p>
-  </footer>
-
-  <script>
-    document.getElementById("date").innerText = new Date().getFullYear().toString();
-  </script>
-  <script src="players.js"></script>
-  <script type="module">
-    import data from '../data/players.json' with { type: 'json' };
+      </p>
+    </footer>
+    <script>
+      document.getElementById("date").innerText = new Date().getFullYear().toString();
+    </script>
+    <script src="/utils/assets-handler.js"></script>
+    <script src="/players/players.js"></script>
+    <script type="module">
+      import data from '/data/players.json' with { type: 'json' };
     renderPlayers(data);
-  </script>
-</body>
+    </script>
+  </body>
 </html>

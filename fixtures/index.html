@@ -10,9 +10,9 @@
     <link href="https://fonts.bunny.net/css?family=inter:400" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/open-props">
     <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/fixtures.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/fixtures.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <meta property="og:type" content="website">
     <meta property="og:url" content="gpl.rakshithnettar.com">
     <meta property="og:title" content="Ganiga Premier League">
@@ -35,11 +35,11 @@
         --theme-secondary-color: #E9BA24;
         --button-padding: 12px;
       }
-
-      :where(html) {
-        color: var(--theme-primary-color);
-      }
-
+      
+            :where(html) {
+              color: var(--theme-primary-color);
+            }
+      
       * {
         box-sizing: border-box;
       }
@@ -147,14 +147,14 @@
   </head>
   <body>
     <header>
-      <a href="/"><h3><span id="head"><img width="48" height="48" src="../assets/logo.png" alt="Tournament logo">Ganiga Premier League</span></h3></a>
+      <a href="/"><h3><span id="head"><img width="48" height="48" src="/assets/logo.png" alt="Tournament logo">Ganiga Premier League</span></h3></a>
       <nav>
         <a href="/" class="button">HOME</a>
         <a href="/fixtures" class="button">FIXTURES</a>
       </nav>
     </header>
     <section id="hero">
-      <img height="560" src="../assets/hero.jpg" alt="hero banner" class="banner" />
+      <img height="560" src="/assets/hero.jpg" alt="hero banner" class="banner" />
       <h1>FIXTURES</h1>
     </section>
     <main class="parent">
@@ -173,39 +173,39 @@
       <section class="hero-section">
         <h1 class="hero-title">Experience The Thrill</h1>
         <p class="hero-subtitle">
-          Don't miss a single moment of cricket action. Get live scores, 
-          match highlights, and exclusive content.
+        Don't miss a single moment of cricket action. Get live scores, 
+        match highlights, and exclusive content.
         </p>
         <a href="/fixtures" class="cta-button">
-          <img src="../assets/playbutton.svg" alt="play">
-            Check Fixtures
+          <img src="/assets/playbutton.svg" alt="play">
+          Check Fixtures
         </a>
       </section>
       <section class="footer">
         <div class="footer-container">
           <div class="footer-brand">
             <div class="brand-logo">
-              <img width="48" height="100%" src="../assets/logo.png" alt="Tournament logo">
+              <img width="48" height="100%" src="/assets/logo.png" alt="Tournament logo">
               <div>
                 <div class="brand-title">GPL</div>
                 <div class="brand-subtitle">Ganiga Premier League</div>
               </div>
             </div>
             <p class="brand-description">
-              Where Unity Plays First
+            Where Unity Plays First
             </p>
             <div class="social-links">
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../assets/facebook.svg" alt="facebook">
+                <img width="20" height="20" src="/assets/facebook.svg" alt="facebook">
               </a>
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../assets/twitter.svg" alt="X">
+                <img width="20" height="20" src="/assets/twitter.svg" alt="X">
               </a>
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../assets/instagram.svg" alt="instagram">
+                <img width="20" height="20" src="/assets/instagram.svg" alt="instagram">
               </a>
               <a href="#" class="social-link">
-                <img width="20" height="20" src="../assets/youtube.svg" alt="youtube">
+                <img width="20" height="20" src="/assets/youtube.svg" alt="youtube">
               </a>
             </div>
           </div>
@@ -232,35 +232,34 @@
             <h3>Contact Info</h3>
             <ul class="contact-info">
               <li>
-                <img src="../assets/location.svg" alt="location">
+                <img src="/assets/location.svg" alt="location">
                 <span>Philomena Ground, Puttur</span>
               </li>
               <li>
-                <img src="../assets/phone.svg" alt="phone">
+                <img src="/assets/phone.svg" alt="phone">
                 <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
               </li>
               <li>
-                <img src="../assets/mail.svg" alt="email">
+                <img src="/assets/mail.svg" alt="email">
                 <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
               </li>
             </ul>
-         </div>
+          </div>
         </div>
       </section>
       <p class="bottom-text">
-        &copy; <span id="date"></span> Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG. 
+      &copy; <span id="date"></span> Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG. 
       </p>
     </footer>
-
     <script>
       document.getElementById("date").innerText = new Date().getFullYear().toString();
     </script>
-    <script src="../utils/assets-handler.js"></script>
-    <script src="../home.js"></script>
-    <script src="../fixtures/fixtures.js"></script>
+    <script src="/utils/assets-handler.js"></script>
+    <script src="/home.js"></script>
+    <script src="/fixtures/fixtures.js"></script>
     <script type="module">
-      import teams from "../data/teams.json" with { type: "json" }; 
-      import fixtures from '../data/fixtures.json' with { type: 'json' };
+      import teams from "/data/teams.json" with { type: "json" }; 
+      import fixtures from '/data/fixtures.json' with { type: 'json' };
       renderTeamsPool(teams);
       renderFixtures(fixtures);
     </script>
