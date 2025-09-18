@@ -44,7 +44,7 @@ async function staleWhileRevalidate(request) {
   const cached = await cache.match(request);
   const networkFetch = fetch(request)
     .then(response => {
-      if (response && response.status === 200 && response.type === 'basic') {
+      if(response && response.status === 200 && response.type === 'basic') {
         cache.put(request, response.clone());
       }
       return response;
@@ -62,7 +62,6 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const isSameOrigin = url.origin === location.origin;
 
-  // HTML navigation requests → Network first, fallback to cache, then offline page
   if (request.mode === 'navigate') {
     event.respondWith(
       (async () => {
@@ -82,25 +81,22 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // For same-origin static assets in PRECACHE → cache-first
-  if (isSameOrigin && PRECACHE_URLS.includes(url.pathname)) {
+  if(isSameOrigin && PRECACHE_URLS.includes(url.pathname)) {
     event.respondWith(
       caches.match(request).then(cached => cached || fetch(request))
     );
     return;
   }
 
-  // For JSON, API-like or other GET requests → stale-while-revalidate
   const isJSON =
     url.pathname.endsWith('.json') ||
     request.headers.get('accept')?.includes('application/json');
 
-  if (isJSON) {
+  if(isJSON) {
     event.respondWith(staleWhileRevalidate(request));
     return;
   }
 
-  // Default: try cache, then network, then offline
   event.respondWith(
     caches.match(request).then(
       cached => cached ||
