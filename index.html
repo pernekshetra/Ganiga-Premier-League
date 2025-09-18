@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#3C4C5C">
+    <meta name="theme-color" content="#011222">
     <title>Home - GANIGA PREMIER LEAGUE</title>
+    <link rel="manifest" href="/manifest.webmanifest">
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☄️</text></svg>" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400" rel="stylesheet" />
@@ -367,6 +368,16 @@
     <script type="module">
       import data from '/data/teams.json' with { type: 'json' };
       renderTeamsMetaData(data, "teams");
+    </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(reg => console.log('SW registered:', reg.scope))
+            .catch(err => console.error('SW registration failed:', err));
+        });
+      }
     </script>
   </body>
 </html>
