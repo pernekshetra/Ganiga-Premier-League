@@ -156,13 +156,7 @@
     </script>
   </head>
   <body>
-    <header>
-      <a href="/"><h3><span id="head"><img width="48" height="48" src="/assets/logo.png" alt="Tournament logo">Ganiga Premier League</span></h3></a>
-      <nav>
-        <a href="/" class="button">HOME</a>
-        <a href="/fixtures" class="button">FIXTURES</a>
-      </nav>
-    </header>
+    <header></header>
     <main class="parent">
       <section class="fourofour">
         <div>
@@ -173,87 +167,12 @@
         <img src="/assets/404.jpg" alt="cricketer" />
       </section>
     </main>
-    <footer class="footer-outer-container">
-      <section class="hero-section">
-        <h1 class="hero-title">Experience The Thrill</h1>
-        <p class="hero-subtitle">
-        Don't miss a single moment of cricket action. Get live scores, match highlights, and exclusive content.
-        </p>
-        <a href="/fixtures" class="cta-button">
-          <img src="/assets/playbutton.svg" alt="play">
-          Check Fixtures
-        </a>
-      </section>
-      <section class="footer">
-        <div class="footer-container">
-          <div class="footer-brand">
-            <div class="brand-logo">
-              <img width="48" height="100%" src="/assets/logo.png" alt="Tournament logo">
-              <div>
-                <div class="brand-title">GPL</div>
-                <div class="brand-subtitle">Ganiga Premier League</div>
-              </div>
-            </div>
-            <p class="brand-description">
-            Where Unity Plays First
-            </p>
-            <div class="social-links">
-              <a href="#" class="social-link">
-                <img width="20" height="20" src="/assets/facebook.svg" alt="facebook">
-              </a>
-              <a href="#" class="social-link">
-                <img width="20" height="20" src="/assets/twitter.svg" alt="X">
-              </a>
-              <a href="#" class="social-link">
-                <img width="20" height="20" src="/assets/instagram.svg" alt="instagram">
-              </a>
-              <a href="#" class="social-link">
-                <img width="20" height="20" src="/assets/youtube.svg" alt="youtube">
-              </a>
-            </div>
-          </div>
-          <div class="footer-column">
-            <h3>Tournament</h3>
-            <ul class="footer-links">
-              <li><a href="/#teams-section">Teams</a></li>
-              <li><a href="/fixtures">Schedule</a></li>
-              <li><a href="#">Points Table</a></li>
-              <li><a href="/players">Players</a></li>
-              <li><a href="#">Statistics</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Quick Links</h3>
-            <ul class="footer-links">
-              <li><a href="#">News</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Videos</a></li>
-              <li><a href="#">Sponsors</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Contact Info</h3>
-            <ul class="contact-info">
-              <li>
-                <img src="/assets/location.svg" alt="location">
-                <span>Philomena Ground, Puttur</span>
-              </li>
-              <li>
-                <img src="/assets/phone.svg" alt="phone">
-                <a class="contact-details" href="tel:+919449567660">+91 94495 67660</a>
-              </li>
-              <li>
-                <img src="/assets/mail.svg" alt="email">
-                <a class="contact-details" href="mailto:pernekshetra@gmail.com">pernekshetra@gmail.com</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <p class="bottom-text">
-      &copy; <span id="date"></span> Ganiga Premier League. All rights reserved. | Built with ❤️ by Arivu GG. 
-      </p>
-    </footer>
+    <footer class="footer-outer-container"></footer>
+    <script src="/loadPartials.js"></script>
+    <script>
+      loadPartial("/partials/header.html", "header");
+      loadPartial("/partials/footer.html", "footer");
+    </script>
     <script src="/utils/assets-handler.js"></script>
   </body>
 </html>
