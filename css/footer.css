@@ -233,7 +233,6 @@
 }
 
 @media (max-width: 548px) {
-
   .footer {
     padding: 0 20px 32px
   }
@@ -259,4 +258,8 @@
     flex-direction: column;
     gap : 24px;
   }
+}
+
+.arivugg {
+  color: #DC2626;
 }
