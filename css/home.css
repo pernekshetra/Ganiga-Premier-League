@@ -25,6 +25,53 @@ h2 {
   max-inline-size: revert;
 }
 
+#hero {
+  position: relative;
+  color: #fff;
+}
+
+#hero .banner {
+  display: block;
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  object-position: bottom;
+  position: relative;
+  z-index: 0;
+}
+
+#hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(1, 18, 34, 0) 55%,
+    rgba(1, 18, 34, 0.6) 78%,
+    #011222 94%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+#hero .logo,
+#hero h4 {
+  position: absolute;
+  z-index: 2;
+}
+
+#hero h4 {
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  max-inline-size: unset;
+  width: 100%;
+}
+
 .teams, .organizers {
   display: flex;
   flex-direction: column;
