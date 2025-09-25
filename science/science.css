@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  padding: 12px;
+  background-color: white;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    h5 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #111827;
+    }
+  }
+  > nav {
+    display: flex;
+    gap: 30px;
+    > a {
+      color: #4B5563;
+      font-size: 16px;
+    }
+  }
+  > a {
+    > button {
+      background-color: #F3CA47;
+      color: black;
+      padding: 8px 24px;
+      border-radius: 8px;
+    }
+  }
+}
