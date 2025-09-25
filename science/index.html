@@ -188,6 +188,8 @@
         </div>
       </section>
       <section id="supported" class="full-width">
+        <h2 class="section-title">Supported by</h2>
+        <div id="supportedby"></div>
       </section>
       <section id="organizors" class="full-width">
         <h2 class="section-title">We coordially welcome you to the event</h2>
@@ -237,5 +239,10 @@
       loadPartial("/partials/footer.html", "footer");
     </script>
     <script src="/utils/assets-handler.js"></script>
+    <script src="/science/science.js"></script>
+    <script type="module">
+      import supporters from '/data/supportedby.json' with { type: 'json' };
+      renderSupportedBy(supporters);
+    </script>
   </body>
 </html>
