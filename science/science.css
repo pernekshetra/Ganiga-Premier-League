@@ -244,6 +244,13 @@ header {
       > h4 {
         color: #374151;
       }
+      > ul {
+        > li {
+          padding-left: 16px;
+          margin-top: 8px;
+          list-style-image: url(/assets/science/checkbox.svg);
+        }
+      }
     }
   }
 }
