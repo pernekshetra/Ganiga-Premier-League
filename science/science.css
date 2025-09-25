@@ -195,9 +195,11 @@ header {
     }
     > h2 {
       font-weight: 700;
+      color: white;
     }
     > h5 {
       font-weight: 400;
+      color: white;
     }
     div {
       display: flex;
