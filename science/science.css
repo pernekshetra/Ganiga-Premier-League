@@ -15,12 +15,27 @@
   background: var(--bg);
 }
 
+:where(h2, h3, small, p) {
+  max-inline-size: unset;
+  text-wrap: revert;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #F3CA47;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
 .table-card{
   background: var(--bg);
   border-radius: var(--card-radius);
   box-shadow: var(--shadow);
   overflow: hidden;
-  max-width: 1100px;
+  max-width: 900px;
   margin: 24px auto;
   overflow-x: auto;
 }
@@ -206,28 +221,156 @@ header {
 
 #about {
   background-color: #FFFFFF;
-  padding: 80px;
+  padding-block: 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  > h3 {
+    text-align: center;
+    color: #111827;
+  }
+  > .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    > div {
+      display: flex;
+      flex-direction: column;
+      padding-inline: 20px;
+      row-gap: 26px;
+      color: #000000; 
+      max-inline-size: 584px;
+      > h4 {
+        color: #374151;
+      }
+    }
+  }
 }
 
 #eligibility {
   background-color: #F3F4F6;
-  padding: 80px;
+  padding-block: 80px;
+  > h3 {
+    text-align: center;
+    color: #111827;
+  }
+  > p {
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  > .groups {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-inline: 20px;
+    > .group-card {
+      width: 100%;
+      max-width: 438px;
+      height: 238px;
+      border-radius: 16px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+    }
+  }
 }
 
 #judging {
   background-color: #FFFFFF;
+  padding-block: 80px;
+  > h3 {
+    text-align: center;
+    color: #111827;
+  }
+  > .judging-criteria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 24px;
+    margin-top: 64px;
+    > .criteria {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 224px;
+      > p {
+        color: #111827;
+      }
+      > small {
+        color: #4B5563;
+      }
+    }
+  }
 }
 
 #prizes {
   background-color: #F3F4F6;
+  padding-block: 80px;
+  > h3 {
+    text-align: center;
+    color: #111827;
+  }
+  p {
+    color: #374151;
+    text-align: center;
+    font-weight: 700;
+  }
 }
 
 #register {
   background-color: #FFFFFF;
+  padding-block: 80px;
+  text-align: center;
+  > h3 {
+    text-align: center;
+    color: #111827;
+  }
+  > p {
+    margin-top: 12px;
+    color: black;
+  }
+  > a {
+    > button {
+      background-color: #F3CA47;
+      color: black;
+      padding: 8px 24px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  }
 }
 
 #encouragment {
   background: linear-gradient(90deg, #011222 0%, #0055A6 100%);
+  padding-block: 80px;
+  text-align: center;
+  color: white;
+  > p {
+    margin-top: 12px;
+  }
+  > div {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 #supported {
@@ -235,12 +378,89 @@ header {
 }
 
 #organizors {
-  background-color: #FFFFFF;
+  background-color: #F3F4F6;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  > .organizors-card {
-    width: 285px;
-    height: 344px;
+  padding: 80px;
+  > h2 {
+    color: #111827;
+    text-align: center;
+  }
+  > .organizors-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 38px;
+    row-gap: 24px;
+    margin-top: 64px;
+    > .organizors-card {
+      width: 285px;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 4px 6px 0px #0000001A;
+      border-radius: 12px;
+      > img {
+        background-color: #aabbcc;
+        width: 253px;
+        height: 230px;
+        border-radius: 14px;
+      }
+      > h4 {
+        font-size: 18px;
+        color: #111827;
+        margin-top: 20px;
+      }
+      > p {
+        font-size: 14px;
+        color: #4B5563;
+      }
+    }
+  }
+}
+
+#contact {
+  padding-block: 80px;
+  background-color: white;
+  text-align: center;
+  > h2 {
+    color: #111827;
+  }
+  > .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 64px;
+    > .contact-card {
+      background-color: #F3F4F6;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      width: 277px;
+      height: 188px;
+      > h5 {
+        color: #111827;
+        font-size: 18px;
+        margin-top: 18px;
+      }
+      > p {
+        margin-top: 8px;
+      }
+    }
+  }
+  > p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-top: 70px;
+    padding-inline: 20px;
   }
 }
