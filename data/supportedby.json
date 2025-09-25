@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Shiva Shankara Nekraje",
+    "designation": "Entrepreneur",
+    "company": "We Two, Dubai",
+    "image": "1ShivaShankar.jpeg"
+  },
+  {
+    "name": "Arikady Gopala",
+    "designation": "Director",
+    "company": "Dynatron Systems LLC",
+    "image": "2ArikadyGopal.jpeg"
+  },
+  {
+    "name": "K. Rama Mugrodi",
+    "designation": "President",
+    "company": "D.K. Zilla Ganiga Samaja Seva Sangha (R), Mangaluru",
+    "image": "3RamaMugrodi.jpeg"
+  },
+  {
+    "name": "Gayathri M",
+    "designation": "Lecturer in Biology",
+    "company": "Government Pre-University College, Bettampady",
+    "image": "4Gayathri.jpeg"
+  },
+  {
+    "name": "Vineeth K",
+    "designation": "Deputy Manager, Accounts Payable",
+    "company": "Schneider Electric",
+    "image": "5Vineth.jpeg"
+  },
+  {
+    "name": "Shreevidya Mahabaladka",
+    "designation": "Senior Executive",
+    "company": "Novartis India Limited",
+    "image": "6Shreevidya.jpeg"
+  },
+  {
+    "name": "Raksha M",
+    "designation": "Software Test Engineer",
+    "company": "Lumine Group",
+    "image": "7Raksha.jpeg"
+  },
+  {
+    "name": "Preetham K S",
+    "designation": "Director",
+    "company": "Swiggy",
+    "image": "8PreethamKS.jpeg"
+  },
+  {
+    "name": "Vinuth Shankar",
+    "designation": "Global Measurement Lead",
+    "company": "Google",
+    "image": "9VinuthShankar.jpeg"
+  },
+  {
+    "name": "Kiran B M",
+    "designation": "Range Forest Officer",
+    "company": "Karnataka Forest Department",
+    "image": "10KiranBM.jpeg"
+  },
+  {
+    "name": "Raksha Y S",
+    "designation": "Senior Software Engineer",
+    "company": "HCL Software",
+    "image": "11RakshaYS.jpeg"
+  },
+  {
+    "name": "Mohana K",
+    "designation": "Owner",
+    "company": "Soorya Priya Coconut Oil",
+    "image": "12Mohana2.jpeg"
+  },
+  {
+    "name": "Prahalad K R",
+    "designation": "Senior ASIC Design Engineer",
+    "company": "NXP Semiconductors",
+    "image": "13Prahlad.jpeg"
+  },
+  {
+    "name": "K. N. Sunil Kumar",
+    "designation": "Scientist–II",
+    "company": "Ministry of Ayush, Govt. of India",
+    "image": "14Sunil.jpeg"
+  },
+  {
+    "name": "Appu",
+    "designation": "Retired Principal",
+    "company": "Puttur",
+    "image": "15Appu.jpeg"
+  },
+  {
+    "name": "Sumalatha",
+    "designation": "Executive",
+    "company": "MSN Life Sciences Private Limited",
+    "image": "16Suma.jpeg"
+  },
+  {
+    "name": "Dr. Akhila S R",
+    "designation": "Clinical Analyst",
+    "company": "ConcertAI",
+    "image": "17Akhila.jpeg"
+  },
+  {
+    "name": "Jayalatha Shankar",
+    "designation": "Headmistress",
+    "company": "GLPS Nettanige",
+    "image": "18Jayalatha.jpeg"
+  },
+  {
+    "name": "Kavinraj V",
+    "designation": "Senior Specialist",
+    "company": "sa.global",
+    "image": "19Kavin.jpeg"
+  },
+  {
+    "name": "Prashant Kumar",
+    "designation": "Co-founder and Director",
+    "company": "The Apprentice Project (TAP)",
+    "image": "20Prashanth.jpeg"
+  },
+  {
+    "name": "Rohith",
+    "designation": "Manager",
+    "company": "Karnataka Bank Ltd",
+    "image": "21Rohit.jpeg"
+  },
+  {
+    "name": "Sandhyashree Rohith",
+    "designation": "Assistant Professor",
+    "company": "Sahyadri College of Engineering and Management, Mangaluru",
+    "image": "22Sandya.jpeg"
+  },
+  {
+    "name": "Santhosh D",
+    "designation": "Manager, Software Engineering",
+    "company": "Openmynz Softlabs Private Ltd",
+    "image": "23Santhosh.jpeg"
+  },
+  {
+    "name": "Dr. Bhavya Manohar",
+    "designation": "Medical Officer",
+    "company": "NHM RBSK",
+    "image": "24BhavyaManohar.jpeg"
+  },
+  {
+    "name": "Sreenivas N",
+    "designation": "Managing Director & CEO",
+    "company": "Wings n Wheels & Anugraha Tours and Travels",
+    "image": "25SrinivasN.jpeg"
+  },
+  {
+    "name": "Sridevi R",
+    "designation": "Project Coordinator",
+    "company": "CBRE",
+    "image": "26Sridevi.jpeg"
+  },
+  {
+    "name": "Prashanth Patali",
+    "designation": "Senior Director of Engineering",
+    "company": "Pluralsight",
+    "image": "27PrashanthPlural1.jpeg"
+  },
+  {
+    "name": "Rajesh Nadubail",
+    "designation": "Project Manager",
+    "company": "HPE",
+    "image": "28Rajesh1.jpeg"
+  },
+  {
+    "name": "Ranjith M P",
+    "designation": "Senior Software Engineer",
+    "company": "DataCore Software",
+    "image": "29Ranjith.jpeg"
+  },
+  {
+    "name": "Likitha Deekshith",
+    "designation": "Managing Director",
+    "company": "SR Agro and Logistics Ltd",
+    "image": "30likitha.jpeg"
+  },
+  {
+    "name": "Prakash K",
+    "designation": "Police Inspector",
+    "company": "Karnataka State Police",
+    "image": "31PrakashPolice.jpeg"
+  },
+  {
+    "name": "Dayananda K",
+    "designation": "CFO",
+    "company": "Shankaranarayana Group",
+    "image": "32Dayananda.jpeg"
+  },
+  {
+    "name": "Sathya Prakash P",
+    "designation": "Software Engineer",
+    "company": "Armada.ai",
+    "image": "33Satya.jpeg"
+  },
+  {
+    "name": "Vaishak Nettar",
+    "designation": "Team Leader",
+    "company": "Nasser Bin Khaled Automobiles",
+    "image": "34Vaishak2.jpeg"
+  },
+  {
+    "name": "Dr. Mohith Santhya",
+    "designation": "Senior Product Validation Engineer",
+    "company": "AiTA Bio Inc., New York",
+    "image": "35Mohith.jpeg"
+  },
+  {
+    "name": "Thanushree Bellare",
+    "designation": "Anchor, Voice-over Artist",
+    "company": "Karnataka Chief Minister’s Social Media Office",
+    "image": "36ThanushreeBellare.jpeg"
+  },
+  {
+    "name": "Deekshith Bellare",
+    "designation": "Program Director",
+    "company": null,
+    "image": "37Deekshith.jpeg"
+  },
+  {
+    "name": "Jayalakshmi D S",
+    "designation": "Secretary",
+    "company": null,
+    "image": "38Jayalakshmi1.jpeg"
+  },
+  {
+    "name": "Prasad Kallarpe",
+    "designation": "President",
+    "company": null,
+    "image": "39Prasad.jpeg"
+  }
+]
