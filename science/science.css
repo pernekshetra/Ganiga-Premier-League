@@ -30,13 +30,13 @@
   border-radius: 2px;
 }
 
-.table-card{
+.table-card {
   background: var(--bg);
   border-radius: var(--card-radius);
   box-shadow: var(--shadow);
   overflow: hidden;
   max-width: 900px;
-  margin: 24px auto;
+  margin: 24px 20px;
   overflow-x: auto;
 }
 
@@ -316,6 +316,10 @@ header {
 #prizes {
   background-color: #F3F4F6;
   padding-block: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   > h3 {
     text-align: center;
     color: #111827;
@@ -369,6 +373,9 @@ header {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      > p {
+        margin-top: 4px;
+      }
     }
   }
 }
