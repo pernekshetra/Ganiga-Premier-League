@@ -10,6 +10,7 @@ function renderSupportedBy(inData) {
         const imgWrapper = document.createElement("div");
         const img = document.createElement("img");  
         img.src = `/assets/science/supporters/${supporter.image}`;
+        img.setAttribute("loading", "lazy");
         img.width = 285;
         img.height = 360;
         imgWrapper.appendChild(img);
