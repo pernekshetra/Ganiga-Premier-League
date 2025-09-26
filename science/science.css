@@ -455,9 +455,9 @@ header {
       > small {
         width: 255px;
       }
-
-    }
-    > .supporter {
+      &:target {
+        background-color: #F3CA47;
+      }
     }
   }
 }
