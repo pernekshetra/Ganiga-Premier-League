@@ -15,7 +15,7 @@
   background: var(--bg);
 }
 
-:where(h2, h3, small, p) {
+:where(h2, h3, h4, small, p) {
   max-inline-size: unset;
   text-wrap: revert;
 }
@@ -182,41 +182,52 @@ header {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  > div {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  flex-direction: column;
+  > h4 {
     text-align: center;
-    > * {
-      max-inline-size: unset;
-      text-wrap: revert;
-    }
-    > h2 {
-      font-weight: 700;
-      color: white;
-    }
-    > h5 {
-      font-weight: 400;
-      color: white;
-    }
-    div {
+  }
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    row-gap: 30px;
+    > div {
+      max-width: 500px;
       display: flex;
-      gap: 16px;
-      a {
-        button {
-          background-color: #F3CA47;
-          color: black;
-          padding: 8px 24px;
-          border-radius: 8px;
-        }
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      text-align: center;
+      > * {
+        max-inline-size: unset;
+        text-wrap: revert;
       }
-      :nth-of-type(2) > button {
-        background-color: transparent;
+      > h2 {
+        font-weight: 400;
         color: white;
-        border: 1px solid white;
+      }
+      > h5 {
+        font-weight: 400;
+        color: white;
+      }
+      div {
+        display: flex;
+        gap: 16px;
+        a {
+          button {
+            background-color: #F3CA47;
+            color: black;
+            padding: 8px 24px;
+            border-radius: 8px;
+          }
+        }
+        :nth-of-type(2) > button {
+          background-color: transparent;
+          color: white;
+          border: 1px solid white;
+        }
       }
     }
   }
