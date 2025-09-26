@@ -185,6 +185,7 @@ header {
   flex-direction: column;
   > h4 {
     text-align: center;
+    color: white;
   }
   > div {
     display: flex;
