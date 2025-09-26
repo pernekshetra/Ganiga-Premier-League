@@ -330,7 +330,7 @@ header {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 224px;
+      width: 175px;
       > p {
         color: #111827;
       }
@@ -356,6 +356,7 @@ header {
     color: #374151;
     text-align: center;
     font-weight: 700;
+    padding-inline: 20px;
   }
 }
 
