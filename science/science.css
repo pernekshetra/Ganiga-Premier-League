@@ -289,9 +289,10 @@ header {
     align-items: center;
     gap: 32px;
     padding-inline: 20px;
+    margin-top: 20px;
     > .group-card {
       width: 100%;
-      max-width: 438px;
+      max-width: 325px;
       height: 238px;
       border-radius: 16px;
       background-color: white;
@@ -299,7 +300,9 @@ header {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 24px;
+      gap: 12px;
+      padding: 12px;
+      text-align: center;
     }
   }
 }

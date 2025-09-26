@@ -9,6 +9,7 @@ function renderSupportedBy(inData) {
 
         const imgWrapper = document.createElement("div");
         const img = document.createElement("img");  
+        card.id = `${supporter.name}`;
         img.src = `/assets/science/supporters/${supporter.image}`;
         img.setAttribute("loading", "lazy");
         img.width = 285;
