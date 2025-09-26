@@ -247,10 +247,22 @@ header {
         color: #374151;
       }
       > ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
         > li {
-          padding-left: 16px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
           margin-top: 8px;
-          list-style-image: url(/assets/science/checkbox.svg);
+        }
+        > li::before {
+          content: "";
+          background: url(/assets/science/checkbox.svg);
+          background-size: 16px;
+          width: 16px;
+          height: 16px;
+          flex-shirnk: 0;
         }
       }
     }
@@ -343,6 +355,7 @@ header {
 #register {
   background-color: #FFFFFF;
   padding-block: 80px;
+  padding-inline: 20px;
   text-align: center;
   > h3 {
     text-align: center;
@@ -366,6 +379,7 @@ header {
 #encouragment {
   background: linear-gradient(90deg, #011222 0%, #0055A6 100%);
   padding-block: 80px;
+  padding-inline: 20px;
   text-align: center;
   color: white;
   > p {
@@ -407,7 +421,6 @@ header {
       color: #111827; 
       box-shadow: 0px 4px 6px 0px #0000001A;
       display: flex;
-      justify-content: center;
       flex-direction: column;
       align-items: center;
       text-align: center;
