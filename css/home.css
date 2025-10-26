@@ -208,15 +208,3 @@ h2 {
   font-size: 20px;
 }
 
-.live-telecast {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  aspect-ratio: 16 / 9;
-  padding: 20px 20px 0px 20px;
-  iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-}
