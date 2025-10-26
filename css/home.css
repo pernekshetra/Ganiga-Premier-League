@@ -208,12 +208,12 @@ h2 {
   font-size: 20px;
 }
 
-.live-telecast {
+#live-telecast {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
   aspect-ratio: 16 / 9;
-  padding-top: 20px;
+  margin-top: 20px;
   & > iframe {
     width: 100%;
     height: 100%;
