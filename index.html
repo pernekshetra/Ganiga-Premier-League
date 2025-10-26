@@ -127,6 +127,21 @@
         justify-self: stretch;
       }
 
+      #live-telecast {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        aspect-ratio: 16 / 9;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        & > iframe {
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+      }
+
       footer {
         display: flex;
         justify-content: center;
@@ -168,16 +183,16 @@
         </div>        
       </div>
     </section>
+    <section id="live-telecast">
+      <iframe
+          src="https://www.youtube.com/embed/BQcgnswbI00"
+          title="Live Telecast - GPL"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+      </iframe>
+    </section>
     <main class="parent">
-      <section id="live-telecast">
-        <iframe
-            src="https://www.youtube.com/embed/BQcgnswbI00"
-            title="Live Telecast - GPL"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
-      </section>
       <section class="pad-50" id="about">
         <h2 class="mb-30">ABOUT</h2>
         <h5>Ganiga Premier League (GPL-2025) is proudly organized by Dakshina Kannada Zilla Ganiga Samaja Seva Sangha (R.), Mangaluru. The tournament is driven by the mission of bringing together the youth of the Ganiga community. The theme of this year’s tournament 
